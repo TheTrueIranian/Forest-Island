@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duj0121xbdq0d"
-path="res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"
+uid="uid://bibgyqlis888f"
+path="res://.godot/imported/Oceanside4.png-cea1c180ce91ebbc7cbb5e10eae0c3ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=["res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex"]
+source_file="res://Sprites/Tiles/Oceanside4.png"
+dest_files=["res://.godot/imported/Oceanside4.png-cea1c180ce91ebbc7cbb5e10eae0c3ee.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0
