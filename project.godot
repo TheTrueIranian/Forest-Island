@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Forest Island"
+config/name="Foragery"
 run/main_scene="res://Scenes/tile_map.tscn"
 config/features=PackedStringArray("4.0")
 config/icon="res://icon.png"
