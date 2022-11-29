@@ -273,11 +273,12 @@ animations = [{
 height = 54.0
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
 script = ExtResource("1_cr3h2")
 
 [node name="Anim" type="AnimatedSprite2D" parent="."]
 frames = SubResource("SpriteFrames_16ti5")
-animation = &"RunDown(M)"
+animation = &"IdleDown(M)"
 playing = true
 
 [node name="Hitbox" type="CollisionShape2D" parent="."]
@@ -286,5 +287,6 @@ position = Vector2(-1.9, 3)
 shape = SubResource("CapsuleShape2D_jtmts")
 
 [node name="Camera" type="Camera2D" parent="."]
+scale = Vector2(1e-05, 1e-05)
 current = true
-zoom = Vector2(1.8, 1.8)
+zoom = Vector2(3, 3)

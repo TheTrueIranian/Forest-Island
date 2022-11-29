@@ -1,3 +1,3 @@
 res://Scenes/Creatures/player.tscn
-res://Scenes/tile_map.tscn
 res://Scripts/Characters/player.gd
+res://Scenes/tile_map.tscn
