@@ -1,16 +1,137 @@
 0b7126e0c6e86d3ec295a72f5aa6e0bd
-::res://::1669579760
+::res://::1670699644
 default_env.tres::Environment::-1::1667782459::0::1::::<><>::
 icon.png::CompressedTexture2D::8583184138429034781::1667778362::1668275531::1::::<><>::
-::res://Scenes/::1669611355
-tile_map.tscn::PackedScene::864518909765500322::1669611355::0::1::::<><>::uid://33q275fi2r3k<>uid://cc6f28h4wpuet<>uid://71eicw4aul2b
-::res://Scenes/Creatures/::1669611355
-player.tscn::PackedScene::2299974112695719939::1669611355::0::1::::<><>::uid://bwkevcgq3g2n5<>res://Scripts/Characters/player.gd<>uid://cdevcem42hcr7<>uid://cnurfm3v2gige<>uid://cw8xc0353t5qv<>uid://ch81qlxncqy0u<>uid://b43o06hjlesqm<>uid://dsxxfykuj61sj<>uid://c657ruh5u3wen<>uid://dx134pkar61nd<>uid://b4vp4slj08lbf<>uid://ub0v6r7rwvlk<>uid://bqjum71ryvfq4<>uid://cflu4mry587o1<>uid://hqamqkokkgxg<>uid://ca16vwgtowivo<>uid://qq2u7xjavwn3<>uid://cv2hul65o6ik2<>uid://b5ehpwfr3byl6<>uid://cnx36t8riqh23<>uid://cq7vl7myupw52<>uid://bxmkf2jsspljn<>uid://dgjawbl4uc14t<>uid://d05cwvoq12fwp<>uid://chq2d4fwvfneg<>uid://cwi2i5ehgooc1<>uid://b3sx6l1bqhrir<>uid://bgaypvxsa6o2q<>uid://deh2ag1a317gn<>uid://cgtyh688s6htx<>uid://bf8ynvktfq3ay<>uid://bm1bd2x4kx5tm<>uid://bnrc8snwll6vo<>uid://jylupdgvmme6<>uid://dfxu3is0e3vgi<>uid://cfl6xl36qe8xa<>uid://cytkdy6rp63jo<>uid://d3m63gqu4hhsp<>uid://d15tvneuruohx<>uid://caxsk5atryj5e<>uid://r1v2kss48x4k<>uid://bwhveppwql3fe<>uid://bcnrbohdijw4f<>uid://cewa0tesf3ulx<>uid://yayx0e1yo4ag<>uid://d4iogvm7lxh5f<>uid://bvp52wbm27xbw<>uid://dl00qobt4u5td<>uid://tgsmy6u5kope<>uid://co0tpkug14gf6<>uid://dce7e3cebj23<>uid://cu6acl4yovxa0<>uid://bba41yrqffhqs<>uid://dqab7u4pk7v4n<>uid://vb2ugfvwp8b4<>uid://bitx1f2ny8ihy<>uid://13fodwf7rlk7<>uid://cvv02gh3221wb<>uid://bdpyk1ju5dyoq<>uid://cesyhq0e0fnfe<>uid://bbrucn48gfnfw<>uid://beuk78kdskcaj<>uid://bm6jhrsf48bcs<>uid://bpgi7a20v3cck<>uid://psopwj7pncs5<>uid://wn8ls5ait8k7<>uid://bu0n0g4uu0bqy<>uid://bvhblpljcxn6g<>uid://cjipqjs2dvo14<>uid://b4i5d1uukuscg<>uid://ci5165q4da4ui<>uid://iukx6r3uyk6x<>uid://25twr3n83hb5<>uid://cjhnj1c5s6n2h<>uid://c5hcsif7gkff1<>uid://cjsd3shhmb5d4<>uid://cg0c5bva4pk4h<>uid://bvxs80flwssb7<>uid://r8a3vot38vmr<>uid://c6x2q37cgkjlg<>uid://bbn6bkyvr74kw<>uid://besi3tl427bb1<>uid://cu2rvs8ldwc0n<>uid://b5u7nshqg5kdn<>uid://2cbqov45xscd<>uid://cuhhd82qh0i80<>uid://b5vekun63jhfd<>uid://ji8b3l3us3ll<>uid://dyk63ct66n4kf<>uid://kjhe0bj5c85g<>uid://dbn7vibsku3j7<>uid://dwayvp6fjr4g2<>uid://e4l2cnlxaqdq<>uid://bqkppoqufgi0u<>uid://dqk8ng7f7repo<>uid://dopul2xfvppf3<>uid://csrp8cqx7grd1<>uid://dlydldiwvpwf2<>uid://cgb5kpxjlqhh<>uid://dxhwlg8i6mwpr<>uid://djdrbqxxa1df3<>uid://bmmvelbmhb2u3<>uid://bsyl3iflcxmn4<>uid://2ds8gly721y8<>uid://3mlf2albl08f<>uid://yvsjjpr14vqa<>uid://d2kyepnb02cun<>uid://301et1qn1g7x<>uid://cv1pj14iy0jbq<>uid://dorhae1kh5fvf<>uid://p7il5kvyv72a<>uid://dvmec6fej3ywe<>uid://dr78qej7dbnci<>uid://b6xths2cnxwt5<>uid://7qatlp4nskj0<>uid://vclepurmdc7m<>uid://bxd30xxcos8r<>uid://dvomvo54t2mhh<>uid://doaijr8lc6xr2<>uid://0p4mshwrg43a<>uid://b8lkeyla4cfy4<>uid://de1jc08vtu1yu<>uid://dsvsmyshppeah<>uid://dtj1bhoacj6ts<>uid://lw7lpxa0wykd<>uid://b6ghsw4eh3gy4<>uid://dqm0xfjsddo3n<>uid://duosrsnuer0qf<>uid://dsxc5fbv7mum1<>uid://bsqaaypj5juva<>uid://c0madi4irdn85<>uid://cqu7ciyi062tk<>uid://e8no4taqewmi<>uid://dfk0gg3v0mi6h<>uid://cay8yssyxxrwy<>uid://boprj7aip3cy0<>uid://bfmogg0pqjtvm<>uid://qhvp2ed3b6lr<>uid://b5821c5w054dc<>uid://pjvaedu4tycn<>uid://cmcwullmn33bo<>uid://cmxf4u0sr6wby<>uid://bcg8rhp8oi8ot<>uid://7l3n1kg5ave6<>uid://c4ye2pibqxe1g
+::res://Scenes/::1669614587
+tile_map.tscn::PackedScene::864518909765500322::1669614587::0::1::::<><>::uid://33q275fi2r3k<>uid://cc6f28h4wpuet<>uid://71eicw4aul2b
+::res://Scenes/Creatures/::1669614531
+player.tscn::PackedScene::2299974112695719939::1669614531::0::1::::<><>::uid://bwkevcgq3g2n5<>res://Scripts/Characters/player.gd<>uid://cdevcem42hcr7<>uid://cnurfm3v2gige<>uid://cw8xc0353t5qv<>uid://ch81qlxncqy0u<>uid://b43o06hjlesqm<>uid://dsxxfykuj61sj<>uid://c657ruh5u3wen<>uid://dx134pkar61nd<>uid://b4vp4slj08lbf<>uid://ub0v6r7rwvlk<>uid://bqjum71ryvfq4<>uid://cflu4mry587o1<>uid://hqamqkokkgxg<>uid://ca16vwgtowivo<>uid://qq2u7xjavwn3<>uid://cv2hul65o6ik2<>uid://b5ehpwfr3byl6<>uid://cnx36t8riqh23<>uid://cq7vl7myupw52<>uid://bxmkf2jsspljn<>uid://dgjawbl4uc14t<>uid://d05cwvoq12fwp<>uid://chq2d4fwvfneg<>uid://cwi2i5ehgooc1<>uid://b3sx6l1bqhrir<>uid://bgaypvxsa6o2q<>uid://deh2ag1a317gn<>uid://cgtyh688s6htx<>uid://bf8ynvktfq3ay<>uid://bm1bd2x4kx5tm<>uid://bnrc8snwll6vo<>uid://jylupdgvmme6<>uid://dfxu3is0e3vgi<>uid://cfl6xl36qe8xa<>uid://cytkdy6rp63jo<>uid://d3m63gqu4hhsp<>uid://d15tvneuruohx<>uid://caxsk5atryj5e<>uid://r1v2kss48x4k<>uid://bwhveppwql3fe<>uid://bcnrbohdijw4f<>uid://cewa0tesf3ulx<>uid://yayx0e1yo4ag<>uid://d4iogvm7lxh5f<>uid://bvp52wbm27xbw<>uid://dl00qobt4u5td<>uid://tgsmy6u5kope<>uid://co0tpkug14gf6<>uid://dce7e3cebj23<>uid://cu6acl4yovxa0<>uid://bba41yrqffhqs<>uid://dqab7u4pk7v4n<>uid://vb2ugfvwp8b4<>uid://bitx1f2ny8ihy<>uid://13fodwf7rlk7<>uid://cvv02gh3221wb<>uid://bdpyk1ju5dyoq<>uid://cesyhq0e0fnfe<>uid://bbrucn48gfnfw<>uid://beuk78kdskcaj<>uid://bm6jhrsf48bcs<>uid://bpgi7a20v3cck<>uid://psopwj7pncs5<>uid://wn8ls5ait8k7<>uid://bu0n0g4uu0bqy<>uid://bvhblpljcxn6g<>uid://cjipqjs2dvo14<>uid://b4i5d1uukuscg<>uid://ci5165q4da4ui<>uid://iukx6r3uyk6x<>uid://25twr3n83hb5<>uid://cjhnj1c5s6n2h<>uid://c5hcsif7gkff1<>uid://cjsd3shhmb5d4<>uid://cg0c5bva4pk4h<>uid://bvxs80flwssb7<>uid://r8a3vot38vmr<>uid://c6x2q37cgkjlg<>uid://bbn6bkyvr74kw<>uid://besi3tl427bb1<>uid://cu2rvs8ldwc0n<>uid://b5u7nshqg5kdn<>uid://2cbqov45xscd<>uid://cuhhd82qh0i80<>uid://b5vekun63jhfd<>uid://ji8b3l3us3ll<>uid://dyk63ct66n4kf<>uid://kjhe0bj5c85g<>uid://dbn7vibsku3j7<>uid://dwayvp6fjr4g2<>uid://e4l2cnlxaqdq<>uid://bqkppoqufgi0u<>uid://dqk8ng7f7repo<>uid://dopul2xfvppf3<>uid://csrp8cqx7grd1<>uid://dlydldiwvpwf2<>uid://cgb5kpxjlqhh<>uid://dxhwlg8i6mwpr<>uid://djdrbqxxa1df3<>uid://bmmvelbmhb2u3<>uid://bsyl3iflcxmn4<>uid://2ds8gly721y8<>uid://3mlf2albl08f<>uid://yvsjjpr14vqa<>uid://d2kyepnb02cun<>uid://301et1qn1g7x<>uid://cv1pj14iy0jbq<>uid://dorhae1kh5fvf<>uid://p7il5kvyv72a<>uid://dvmec6fej3ywe<>uid://dr78qej7dbnci<>uid://b6xths2cnxwt5<>uid://7qatlp4nskj0<>uid://vclepurmdc7m<>uid://bxd30xxcos8r<>uid://dvomvo54t2mhh<>uid://doaijr8lc6xr2<>uid://0p4mshwrg43a<>uid://b8lkeyla4cfy4<>uid://de1jc08vtu1yu<>uid://dsvsmyshppeah<>uid://dtj1bhoacj6ts<>uid://lw7lpxa0wykd<>uid://b6ghsw4eh3gy4<>uid://dqm0xfjsddo3n<>uid://duosrsnuer0qf<>uid://dsxc5fbv7mum1<>uid://bsqaaypj5juva<>uid://c0madi4irdn85<>uid://cqu7ciyi062tk<>uid://e8no4taqewmi<>uid://dfk0gg3v0mi6h<>uid://cay8yssyxxrwy<>uid://boprj7aip3cy0<>uid://bfmogg0pqjtvm<>uid://qhvp2ed3b6lr<>uid://b5821c5w054dc<>uid://pjvaedu4tycn<>uid://cmcwullmn33bo<>uid://cmxf4u0sr6wby<>uid://bcg8rhp8oi8ot<>uid://7l3n1kg5ave6<>uid://c4ye2pibqxe1g
 ::res://Scenes/TileMap(s)/::1669421486
 ::res://Scripts/::1669423838
 ::res://Scripts/Characters/::1669587944
 player.gd::GDScript::-1::1669587944::0::1::::<>CharacterBody2D<>::
-::res://Sprites/::1668365053
+::res://Sprites/::1669665466
+::res://Sprites/Animals/::1670429961
+::res://Sprites/Animals/Black Bear/::1670642824
+::res://Sprites/Animals/Black Bear/Run/::1670431381
+::res://Sprites/Animals/Black Bear/Run/Down/::1670431394
+Black_Run_Down1.png::CompressedTexture2D::531606040067199236::1670551809::1670699647::1::::<><>::
+Black_Run_Down2.png::CompressedTexture2D::2407827085537703037::1670551809::1670699647::1::::<><>::
+Black_Run_Down3.png::CompressedTexture2D::3835916899855113418::1670551809::1670699647::1::::<><>::
+Black_Run_Down4.png::CompressedTexture2D::2490473271283021302::1670551809::1670699647::1::::<><>::
+::res://Sprites/Animals/Black Bear/Run/Left/::1670430816
+Black_Run_Left1.png::CompressedTexture2D::2832987099748979227::1670551397::1670699647::1::::<><>::
+Black_Run_Left2.png::CompressedTexture2D::6595106198626766939::1670551397::1670699647::1::::<><>::
+Black_Run_Left3.png::CompressedTexture2D::253963375467721268::1670551397::1670699647::1::::<><>::
+Black_Run_Left4.png::CompressedTexture2D::4991635285372398619::1670551397::1670699647::1::::<><>::
+::res://Sprites/Animals/Black Bear/Run/Right/::1670429995
+Black_Run_Right1.png::CompressedTexture2D::7993356539737866454::1670551602::1670699647::1::::<><>::
+Black_Run_Right2.png::CompressedTexture2D::9109492485047841090::1670551602::1670699647::1::::<><>::
+Black_Run_Right3.png::CompressedTexture2D::7782481279983793147::1670551602::1670699647::1::::<><>::
+Black_Run_Right4.png::CompressedTexture2D::1923495059716806761::1670551602::1670699647::1::::<><>::
+::res://Sprites/Animals/Black Bear/Run/Up/::1670430968
+Black_Run_Up1.png::CompressedTexture2D::7101215834222047496::1670552030::1670699647::1::::<><>::
+Black_Run_Up2.png::CompressedTexture2D::2003783794583466431::1670552030::1670699647::1::::<><>::
+Black_Run_Up3.png::CompressedTexture2D::1213975175474236003::1670552030::1670699647::1::::<><>::
+Black_Run_Up4.png::CompressedTexture2D::4755419289706847573::1670552030::1670699647::1::::<><>::
+::res://Sprites/Animals/Black Bear/Sleep/::1670651661
+::res://Sprites/Animals/Black Bear/Sleep/Left/::1670651669
+Black_Sleep_Left1.png::CompressedTexture2D::2303934978602398007::1670651717::1670699647::1::::<><>::
+Black_Sleep_Left2.png::CompressedTexture2D::5119008787959398470::1670651717::1670699647::1::::<><>::
+Black_Sleep_Left3.png::CompressedTexture2D::8635717837223140377::1670651717::1670699647::1::::<><>::
+Black_Sleep_Left4.png::CompressedTexture2D::8060815247344705058::1670651717::1670699647::1::::<><>::
+::res://Sprites/Animals/Black Bear/Sleep/Right/::1670642837
+Black_Sleep_Right1.png::CompressedTexture2D::6085987349492380182::1670651708::1670699647::1::::<><>::
+Black_Sleep_Right2.png::CompressedTexture2D::3413681337399009518::1670651708::1670699647::1::::<><>::
+Black_Sleep_Right3.png::CompressedTexture2D::7129130023404830681::1670651708::1670699647::1::::<><>::
+Black_Sleep_Right4.png::CompressedTexture2D::8260423848913194516::1670651708::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/::1670177858
+::res://Sprites/Animals/Grizzly Bear/Disturbed/::1670133177
+::res://Sprites/Animals/Grizzly Bear/Disturbed/Down/::1670132244
+Grizzly_Disturbed_Down1.png::CompressedTexture2D::1522920986016866979::1670132584::1670699647::1::::<><>::
+Grizzly_Disturbed_Down2.png::CompressedTexture2D::3038135138418915136::1670132584::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Disturbed/Left/::1670131688
+Grizzly_Disturbed_Left1.png::CompressedTexture2D::4655504434065074869::1670131744::1670699647::1::::<><>::
+Grizzly_Disturbed_Left2.png::CompressedTexture2D::5696284442941485171::1670131744::1670699647::1::::<><>::
+Grizzly_Disturbed_Left.png::CompressedTexture2D::524092554106479147::1670131683::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Disturbed/Right/::1670131802
+Grizzly_Disturbed_Right1.png::CompressedTexture2D::301488832631381887::1670131816::1670699647::1::::<><>::
+Grizzly_Disturbed_Right2.png::CompressedTexture2D::2392802314345870501::1670131816::1670699647::1::::<><>::
+Grizzly_Disturbed_Right.png::CompressedTexture2D::8206071872083849129::1670131792::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Disturbed/Up/::1670133193
+Grizzly_Disturbed_Up1.png::CompressedTexture2D::7344761044160418206::1670133248::1670699647::1::::<><>::
+Grizzly_Disturbed_Up2.png::CompressedTexture2D::3125479917396447701::1670133248::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Run/::1670378305
+::res://Sprites/Animals/Grizzly Bear/Run/Down/::1670378311
+Grizzly_Run_Down1.png::CompressedTexture2D::2757900404006984567::1670389602::1670699647::1::::<><>::
+Grizzly_Run_Down2.png::CompressedTexture2D::5346441525945285565::1670389602::1670699647::1::::<><>::
+Grizzly_Run_Down3.png::CompressedTexture2D::6398602778712280374::1670389602::1670699647::1::::<><>::
+Grizzly_Run_Down4.png::CompressedTexture2D::8887962923703402860::1670389602::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Run/Left/::1670201865
+Grizzly_Run_Left1.png::CompressedTexture2D::6466399112600908927::1670201932::1670699647::1::::<><>::
+Grizzly_Run_Left2.png::CompressedTexture2D::23286434818703699::1670201932::1670699647::1::::<><>::
+Grizzly_Run_Left3.png::CompressedTexture2D::4136248523365064943::1670201932::1670699647::1::::<><>::
+Grizzly_Run_Left4.png::CompressedTexture2D::2730980502596757685::1670201932::1670699647::1::::<><>::
+Grizzly_Run_Left.png::CompressedTexture2D::3531563953004539515::1670201852::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Run/Right/::1670201837
+Grizzly_Run_Right1.png::CompressedTexture2D::8864389407125567275::1670201794::1670699647::1::::<><>::
+Grizzly_Run_Right2.png::CompressedTexture2D::5241047204269620953::1670201794::1670699647::1::::<><>::
+Grizzly_Run_Right3.png::CompressedTexture2D::7533930204605572430::1670201794::1670699647::1::::<><>::
+Grizzly_Run_Right4.png::CompressedTexture2D::1354591191179153054::1670201794::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Run/Up/::1670289256
+Grizzly_Run_Up1.png::CompressedTexture2D::6728847298289678684::1670381056::1670699647::1::::<><>::
+Grizzly_Run_Up2.png::CompressedTexture2D::710259876200476058::1670381056::1670699647::1::::<><>::
+Grizzly_Run_Up3.png::CompressedTexture2D::187232613868141129::1670381056::1670699647::1::::<><>::
+Grizzly_Run_Up4.png::CompressedTexture2D::7408718858817089943::1670381056::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Static/::1669770767
+::res://Sprites/Animals/Grizzly Bear/Static/Down/::1669743253
+Grizzly_Static_Down1.png::CompressedTexture2D::8194183877936905964::1669743630::1670699647::1::::<><>::
+Grizzly_Static_Down2.png::CompressedTexture2D::1200536976062291501::1669743630::1670699647::1::::<><>::
+Grizzly_Static_Down3.png::CompressedTexture2D::2178140638983077216::1669743630::1670699647::1::::<><>::
+Grizzly_Static_Down4.png::CompressedTexture2D::161964164038355009::1669743630::1670699647::1::::<><>::
+Grizzly_Static_Down.png::CompressedTexture2D::4160962468888426008::1669742383::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Static/Left/::1669770779
+Grizzly_Static_Left1.png::CompressedTexture2D::7741212401781495691::1669770875::1670699647::1::::<><>::
+Grizzly_Static_Left2.png::CompressedTexture2D::3538321338546048037::1669770875::1670699647::1::::<><>::
+Grizzly_Static_Left3.png::CompressedTexture2D::9143993219726872592::1669770875::1670699647::1::::<><>::
+Grizzly_Static_Left4.png::CompressedTexture2D::2234915867503075601::1669770875::1670699647::1::::<><>::
+Grizzly_Static_Left.png::CompressedTexture2D::7417570049269984193::1669770777::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Static/Right/::1669770446
+Grizzly_Static_Right1.png::CompressedTexture2D::2545299731611682803::1669770743::1670699647::1::::<><>::
+Grizzly_Static_Right2.png::CompressedTexture2D::8915591099854882746::1669770743::1670699647::1::::<><>::
+Grizzly_Static_Right3.png::CompressedTexture2D::8559372855507154916::1669770743::1670699647::1::::<><>::
+Grizzly_Static_Right4.png::CompressedTexture2D::6960966484222970155::1669770743::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Static/Up/::1669768890
+Grizzly_Static_Up1.png::CompressedTexture2D::7605942134655170582::1669769182::1670699647::1::::<><>::
+Grizzly_Static_Up2.png::CompressedTexture2D::1487966172000448615::1669769182::1670699647::1::::<><>::
+Grizzly_Static_Up3.png::CompressedTexture2D::4591018907432850136::1669769182::1670699647::1::::<><>::
+Grizzly_Static_Up4.png::CompressedTexture2D::9022852863020826335::1669769182::1670699647::1::::<><>::
+Grizzly_Static_Up.png::CompressedTexture2D::4168164113430794174::1669768880::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Walk/::1669768154
+::res://Sprites/Animals/Grizzly Bear/Walk/Down/::1669684641
+Grizzly_Walk_Down1.png::CompressedTexture2D::2727861771715039713::1669743115::1670699647::1::::<><>::
+Grizzly_Walk_Down2.png::CompressedTexture2D::3275417094109548898::1669743115::1670699647::1::::<><>::
+Grizzly_Walk_Down3.png::CompressedTexture2D::2918590267496939608::1669743115::1670699647::1::::<><>::
+Grizzly_Walk_Down4.png::CompressedTexture2D::494455745495589952::1669743115::1670699647::1::::<><>::
+Grizzly_Walk_Down.png::CompressedTexture2D::4213089395153683762::1669684638::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Walk/Left/::1669677496
+Grizzly_Walk_Left1.png::CompressedTexture2D::7738880750907372706::1669677532::1670699647::1::::<><>::
+Grizzly_Walk_Left2.png::CompressedTexture2D::7475752802803322356::1669677532::1670699647::1::::<><>::
+Grizzly_Walk_Left3.png::CompressedTexture2D::3925685223127275524::1669677532::1670699647::1::::<><>::
+Grizzly_Walk_Left4.png::CompressedTexture2D::6518914032485269719::1669677532::1670699647::1::::<><>::
+Grizzly_Walk_Left.png::CompressedTexture2D::8300854955969844443::1669677484::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Walk/Right/::1669675700
+Grizzly_Walk_Right1.png::CompressedTexture2D::2171344939428039953::1669696798::1670699647::1::::<><>::
+Grizzly_Walk_Right2.png::CompressedTexture2D::4882835165698678383::1669696798::1670699647::1::::<><>::
+Grizzly_Walk_Right3.png::CompressedTexture2D::2404107930143760274::1669696798::1670699647::1::::<><>::
+Grizzly_Walk_Right4.png::CompressedTexture2D::8630605372287173593::1669696798::1670699647::1::::<><>::
+Grizzly_Walk_Right.png::CompressedTexture2D::2580360617824135477::1669668998::1670699647::1::::<><>::
+::res://Sprites/Animals/Grizzly Bear/Walk/Up/::1669768384
+Grizzly_Walk_Up1.png::CompressedTexture2D::1092410693265267002::1669768918::1670699647::1::::<><>::
+Grizzly_Walk_Up2.png::CompressedTexture2D::4468896714644028842::1669768918::1670699647::1::::<><>::
+Grizzly_Walk_Up3.png::CompressedTexture2D::1188296367988756206::1669768918::1670699647::1::::<><>::
+Grizzly_Walk_Up4.png::CompressedTexture2D::4790019378790037425::1669768918::1670699647::1::::<><>::
+Grizzly_Walk_Up.png::CompressedTexture2D::6709541219299551904::1669768392::1670699647::1::::<><>::
 ::res://Sprites/Characters/::1668367265
 ::res://Sprites/Characters/Female/::1669076891
 ::res://Sprites/Characters/Female/Run/::1669418370
@@ -197,7 +318,7 @@ Male_Walk_Up5.png::CompressedTexture2D::5662944642301952410::1669401334::1669422
 Male_Walk_Up6.png::CompressedTexture2D::2541219049105149043::1669401334::1669422843::1::::<><>::
 Male_Walk_Up7.png::CompressedTexture2D::2270475824197793435::1669401334::1669422843::1::::<><>::
 Male_Walk_Up8.png::CompressedTexture2D::6858154783669487714::1669401334::1669422843::1::::<><>::
-::res://Sprites/Tiles/::1669610667
+::res://Sprites/Tiles/::1669611614
 Main-Tileset.png::CompressedTexture2D::2024111614628562814::1669611610::1669611614::1::::<><>::
 Oceanside1.png::CompressedTexture2D::8440217242823211715::1668210837::1668275935::1::::<><>::
 Oceanside2.png::CompressedTexture2D::7082302869607454047::1668210837::1668275935::1::::<><>::
