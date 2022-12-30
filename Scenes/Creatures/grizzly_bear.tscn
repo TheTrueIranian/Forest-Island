@@ -1,0 +1,190 @@
+[gd_scene load_steps=62 format=3 uid="uid://b8hupekhm17mm"]
+
+[ext_resource type="Texture2D" uid="uid://vxyjy1myqyyt" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Down/Grizzly_Disturbed_Down1.png" id="1_xb6vm"]
+[ext_resource type="Script" path="res://Scripts/Animals/grizzlybear.gd" id="1_xgu5y"]
+[ext_resource type="Texture2D" uid="uid://bjjxv28m21wbg" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Down/Grizzly_Disturbed_Down2.png" id="2_mkavy"]
+[ext_resource type="Texture2D" uid="uid://b7lfqinp7kuo0" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Left/Grizzly_Disturbed_Left1.png" id="3_qj4w3"]
+[ext_resource type="Texture2D" uid="uid://cnfk8civdtbpj" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Left/Grizzly_Disturbed_Left2.png" id="4_ytwgy"]
+[ext_resource type="Texture2D" uid="uid://ekbqhpaf52pv" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Right/Grizzly_Disturbed_Right1.png" id="5_8j3t3"]
+[ext_resource type="Texture2D" uid="uid://baddds3h3hibl" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Right/Grizzly_Disturbed_Right2.png" id="6_4h1eb"]
+[ext_resource type="Texture2D" uid="uid://dcv4e2mhnkx7c" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Up/Grizzly_Disturbed_Up1.png" id="7_686bq"]
+[ext_resource type="Texture2D" uid="uid://bksagyort17un" path="res://Sprites/Animals/Grizzly Bear/Disturbed/Up/Grizzly_Disturbed_Up2.png" id="8_llcjj"]
+[ext_resource type="Texture2D" uid="uid://bfj7hmr7luw12" path="res://Sprites/Animals/Grizzly Bear/Run/Down/Grizzly_Run_Down1.png" id="9_b1smc"]
+[ext_resource type="Texture2D" uid="uid://cif4d1df73wqf" path="res://Sprites/Animals/Grizzly Bear/Run/Down/Grizzly_Run_Down2.png" id="10_qpqu8"]
+[ext_resource type="Texture2D" uid="uid://cxfsb2f4831li" path="res://Sprites/Animals/Grizzly Bear/Run/Down/Grizzly_Run_Down3.png" id="11_xd1lf"]
+[ext_resource type="Texture2D" uid="uid://dyvnplep74w7m" path="res://Sprites/Animals/Grizzly Bear/Run/Down/Grizzly_Run_Down4.png" id="12_fbxqm"]
+[ext_resource type="Texture2D" uid="uid://cyemwb23a8xkh" path="res://Sprites/Animals/Grizzly Bear/Run/Left/Grizzly_Run_Left1.png" id="13_am6qx"]
+[ext_resource type="Texture2D" uid="uid://ljr27lvsidn" path="res://Sprites/Animals/Grizzly Bear/Run/Left/Grizzly_Run_Left2.png" id="14_nkgic"]
+[ext_resource type="Texture2D" uid="uid://by6vn5wc28ut8" path="res://Sprites/Animals/Grizzly Bear/Run/Left/Grizzly_Run_Left3.png" id="15_h2qia"]
+[ext_resource type="Texture2D" uid="uid://be5535psug20h" path="res://Sprites/Animals/Grizzly Bear/Run/Left/Grizzly_Run_Left4.png" id="16_y2lpa"]
+[ext_resource type="Texture2D" uid="uid://dyj8g0nfvtypf" path="res://Sprites/Animals/Grizzly Bear/Run/Right/Grizzly_Run_Right1.png" id="17_bgs76"]
+[ext_resource type="Texture2D" uid="uid://cgw2jtxa6mqaj" path="res://Sprites/Animals/Grizzly Bear/Run/Right/Grizzly_Run_Right2.png" id="18_u4h4r"]
+[ext_resource type="Texture2D" uid="uid://dflqy2ubxthte" path="res://Sprites/Animals/Grizzly Bear/Run/Right/Grizzly_Run_Right3.png" id="19_aiybn"]
+[ext_resource type="Texture2D" uid="uid://tkf6im11nvww" path="res://Sprites/Animals/Grizzly Bear/Run/Right/Grizzly_Run_Right4.png" id="20_3d8fl"]
+[ext_resource type="Texture2D" uid="uid://c24reqqowgncu" path="res://Sprites/Animals/Grizzly Bear/Run/Up/Grizzly_Run_Up1.png" id="21_3t6qq"]
+[ext_resource type="Texture2D" uid="uid://keb42dwrs3te" path="res://Sprites/Animals/Grizzly Bear/Run/Up/Grizzly_Run_Up2.png" id="22_4sypp"]
+[ext_resource type="Texture2D" uid="uid://cwxxua60kpgb" path="res://Sprites/Animals/Grizzly Bear/Run/Up/Grizzly_Run_Up3.png" id="23_xnidg"]
+[ext_resource type="Texture2D" uid="uid://dds3rt4ex8mi6" path="res://Sprites/Animals/Grizzly Bear/Run/Up/Grizzly_Run_Up4.png" id="24_stbgf"]
+[ext_resource type="Texture2D" uid="uid://do0lanbrykajk" path="res://Sprites/Animals/Grizzly Bear/Static/Down/Grizzly_Static_Down1.png" id="25_onpnk"]
+[ext_resource type="Texture2D" uid="uid://rdswy5px13in" path="res://Sprites/Animals/Grizzly Bear/Static/Down/Grizzly_Static_Down2.png" id="26_ay855"]
+[ext_resource type="Texture2D" uid="uid://6bdwm0yli07m" path="res://Sprites/Animals/Grizzly Bear/Static/Down/Grizzly_Static_Down3.png" id="27_r4cu7"]
+[ext_resource type="Texture2D" uid="uid://ckpr5gta50lx" path="res://Sprites/Animals/Grizzly Bear/Static/Down/Grizzly_Static_Down4.png" id="28_4c83v"]
+[ext_resource type="Texture2D" uid="uid://dij5vwws4kmdv" path="res://Sprites/Animals/Grizzly Bear/Static/Left/Grizzly_Static_Left1.png" id="29_rxf25"]
+[ext_resource type="Texture2D" uid="uid://bqn8vuvlarb46" path="res://Sprites/Animals/Grizzly Bear/Static/Left/Grizzly_Static_Left2.png" id="30_josfn"]
+[ext_resource type="Texture2D" uid="uid://d3joh5vi1lccm" path="res://Sprites/Animals/Grizzly Bear/Static/Left/Grizzly_Static_Left3.png" id="31_bbb40"]
+[ext_resource type="Texture2D" uid="uid://63u0c58m50ob" path="res://Sprites/Animals/Grizzly Bear/Static/Left/Grizzly_Static_Left4.png" id="32_ifd36"]
+[ext_resource type="Texture2D" uid="uid://bci7ykg3j60h0" path="res://Sprites/Animals/Grizzly Bear/Static/Right/Grizzly_Static_Right1.png" id="33_wclle"]
+[ext_resource type="Texture2D" uid="uid://d0a1qoffye3va" path="res://Sprites/Animals/Grizzly Bear/Static/Right/Grizzly_Static_Right2.png" id="34_aeqee"]
+[ext_resource type="Texture2D" uid="uid://dt7hvdf2y13hw" path="res://Sprites/Animals/Grizzly Bear/Static/Right/Grizzly_Static_Right3.png" id="35_xiuh5"]
+[ext_resource type="Texture2D" uid="uid://c6f7do0eglqwh" path="res://Sprites/Animals/Grizzly Bear/Static/Right/Grizzly_Static_Right4.png" id="36_t5k2k"]
+[ext_resource type="Texture2D" uid="uid://dgmm0xuweb1e5" path="res://Sprites/Animals/Grizzly Bear/Static/Up/Grizzly_Static_Up1.png" id="37_p2f3h"]
+[ext_resource type="Texture2D" uid="uid://vg1t5137xjtf" path="res://Sprites/Animals/Grizzly Bear/Static/Up/Grizzly_Static_Up2.png" id="38_8c2nr"]
+[ext_resource type="Texture2D" uid="uid://b6n6n7yfi2d33" path="res://Sprites/Animals/Grizzly Bear/Static/Up/Grizzly_Static_Up3.png" id="39_tocvk"]
+[ext_resource type="Texture2D" uid="uid://d1s0clclt0jkp" path="res://Sprites/Animals/Grizzly Bear/Static/Up/Grizzly_Static_Up4.png" id="40_5nf7q"]
+[ext_resource type="Texture2D" uid="uid://be4nqqp64sevh" path="res://Sprites/Animals/Grizzly Bear/Walk/Down/Grizzly_Walk_Down1.png" id="41_rwvc2"]
+[ext_resource type="Texture2D" uid="uid://bmwvv18xo7m6u" path="res://Sprites/Animals/Grizzly Bear/Walk/Down/Grizzly_Walk_Down2.png" id="42_68lmo"]
+[ext_resource type="Texture2D" uid="uid://bht10xec708j1" path="res://Sprites/Animals/Grizzly Bear/Walk/Down/Grizzly_Walk_Down3.png" id="43_4xpnf"]
+[ext_resource type="Texture2D" uid="uid://hbru4wh4nkd1" path="res://Sprites/Animals/Grizzly Bear/Walk/Down/Grizzly_Walk_Down4.png" id="44_1od8s"]
+[ext_resource type="Texture2D" uid="uid://dii1iaalvh7fq" path="res://Sprites/Animals/Grizzly Bear/Walk/Left/Grizzly_Walk_Left1.png" id="45_6aiij"]
+[ext_resource type="Texture2D" uid="uid://derks6imfsooa" path="res://Sprites/Animals/Grizzly Bear/Walk/Left/Grizzly_Walk_Left2.png" id="46_nbl50"]
+[ext_resource type="Texture2D" uid="uid://bv6vpyfnu4q65" path="res://Sprites/Animals/Grizzly Bear/Walk/Left/Grizzly_Walk_Left3.png" id="47_xxwt7"]
+[ext_resource type="Texture2D" uid="uid://cy42tdkwi8gwl" path="res://Sprites/Animals/Grizzly Bear/Walk/Left/Grizzly_Walk_Left4.png" id="48_24tfb"]
+[ext_resource type="Texture2D" uid="uid://562y7n16kay8" path="res://Sprites/Animals/Grizzly Bear/Walk/Right/Grizzly_Walk_Right1.png" id="49_xdmmy"]
+[ext_resource type="Texture2D" uid="uid://cbtjt1sueo0vr" path="res://Sprites/Animals/Grizzly Bear/Walk/Right/Grizzly_Walk_Right2.png" id="50_lesq6"]
+[ext_resource type="Texture2D" uid="uid://baitkofmpjsny" path="res://Sprites/Animals/Grizzly Bear/Walk/Right/Grizzly_Walk_Right3.png" id="51_bsamf"]
+[ext_resource type="Texture2D" uid="uid://du7y2r265fwvp" path="res://Sprites/Animals/Grizzly Bear/Walk/Right/Grizzly_Walk_Right4.png" id="52_rdbvr"]
+[ext_resource type="Texture2D" uid="uid://ptf3yi2vu2pa" path="res://Sprites/Animals/Grizzly Bear/Walk/Up/Grizzly_Walk_Up1.png" id="53_jk7jh"]
+[ext_resource type="Texture2D" uid="uid://b4w1ct3f0eomk" path="res://Sprites/Animals/Grizzly Bear/Walk/Up/Grizzly_Walk_Up2.png" id="54_c3lk8"]
+[ext_resource type="Texture2D" uid="uid://q6vckdyhtlwo" path="res://Sprites/Animals/Grizzly Bear/Walk/Up/Grizzly_Walk_Up3.png" id="55_7hk6k"]
+[ext_resource type="Texture2D" uid="uid://caik6i0wttk7b" path="res://Sprites/Animals/Grizzly Bear/Walk/Up/Grizzly_Walk_Up4.png" id="56_2tad7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dgsl4"]
+animations = [{
+"frames": [ExtResource("1_xb6vm"), ExtResource("2_mkavy")],
+"loop": false,
+"name": &"Disturbed(D)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("3_qj4w3"), ExtResource("4_ytwgy")],
+"loop": false,
+"name": &"Disturbed(L) ",
+"speed": 5.0
+}, {
+"frames": [ExtResource("5_8j3t3"), ExtResource("6_4h1eb")],
+"loop": false,
+"name": &"Disturbed(R)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("7_686bq"), ExtResource("8_llcjj")],
+"loop": false,
+"name": &"Disturbed(U) ",
+"speed": 5.0
+}, {
+"frames": [ExtResource("9_b1smc"), ExtResource("10_qpqu8"), ExtResource("11_xd1lf"), ExtResource("12_fbxqm")],
+"loop": true,
+"name": &"Run(D)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("13_am6qx"), ExtResource("14_nkgic"), ExtResource("15_h2qia"), ExtResource("16_y2lpa")],
+"loop": true,
+"name": &"Run(L)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("17_bgs76"), ExtResource("18_u4h4r"), ExtResource("19_aiybn"), ExtResource("20_3d8fl")],
+"loop": true,
+"name": &"Run(R)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("21_3t6qq"), ExtResource("22_4sypp"), ExtResource("23_xnidg"), ExtResource("24_stbgf")],
+"loop": true,
+"name": &"Run(U)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("25_onpnk"), ExtResource("26_ay855"), ExtResource("27_r4cu7"), ExtResource("28_4c83v")],
+"loop": true,
+"name": &"Static(D)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("29_rxf25"), ExtResource("30_josfn"), ExtResource("31_bbb40"), ExtResource("32_ifd36")],
+"loop": true,
+"name": &"Static(L)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("33_wclle"), ExtResource("34_aeqee"), ExtResource("35_xiuh5"), ExtResource("36_t5k2k")],
+"loop": true,
+"name": &"Static(R)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("37_p2f3h"), ExtResource("38_8c2nr"), ExtResource("39_tocvk"), ExtResource("40_5nf7q")],
+"loop": true,
+"name": &"Static(U)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("41_rwvc2"), ExtResource("42_68lmo"), ExtResource("43_4xpnf"), ExtResource("44_1od8s")],
+"loop": true,
+"name": &"Walk(D)",
+"speed": 3.0
+}, {
+"frames": [ExtResource("45_6aiij"), ExtResource("46_nbl50"), ExtResource("47_xxwt7"), ExtResource("48_24tfb")],
+"loop": true,
+"name": &"Walk(L)",
+"speed": 3.0
+}, {
+"frames": [ExtResource("49_xdmmy"), ExtResource("50_lesq6"), ExtResource("51_bsamf"), ExtResource("52_rdbvr")],
+"loop": true,
+"name": &"Walk(R)",
+"speed": 3.0
+}, {
+"frames": [ExtResource("53_jk7jh"), ExtResource("54_c3lk8"), ExtResource("55_7hk6k"), ExtResource("56_2tad7")],
+"loop": true,
+"name": &"Walk(U)",
+"speed": 3.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kmmmp"]
+radius = 36.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o0nm1"]
+radius = 183.011
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ev18p"]
+radius = 35.9026
+
+[node name="GrizzlyBear" type="CharacterBody2D"]
+position = Vector2(-437, -474)
+script = ExtResource("1_xgu5y")
+
+[node name="Anim" type="AnimatedSprite2D" parent="."]
+position = Vector2(444, 488)
+frames = SubResource("SpriteFrames_dgsl4")
+animation = &"Walk(D)"
+
+[node name="Attack" type="Area2D" parent="."]
+position = Vector2(444, 489)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Attack"]
+shape = SubResource("CircleShape2D_kmmmp")
+
+[node name="Eyesight" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eyesight"]
+position = Vector2(448, 485)
+shape = SubResource("CircleShape2D_o0nm1")
+
+[node name="WalkTimer" type="Timer" parent="."]
+autostart = true
+
+[node name="StaticTimer" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(443, 489)
+shape = SubResource("CircleShape2D_ev18p")
+
+[connection signal="body_entered" from="Attack" to="." method="_on_attack_body_entered"]
+[connection signal="body_entered" from="Eyesight" to="." method="_on_eyesight_body_entered"]
+[connection signal="body_exited" from="Eyesight" to="." method="_on_eyesight_body_exited"]
+[connection signal="timeout" from="WalkTimer" to="." method="_on_walk_timer_timeout"]
+[connection signal="timeout" from="StaticTimer" to="." method="_on_static_timer_timeout"]

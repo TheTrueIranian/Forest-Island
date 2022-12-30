@@ -1,2 +1,4 @@
 res://Scenes/tile_map.tscn
 res://Scenes/Creatures/player.tscn
+res://Scenes/Creatures/grizzly_bear.tscn
+res://Debug/debug.tscn

@@ -1,0 +1,68 @@
+[gd_scene load_steps=13 format=3 uid="uid://bju6nnh0b78k"]
+
+[ext_resource type="Texture2D" uid="uid://cupxybuswchia" path="res://Sprites/Buildings/Pirates Shop/Door Open/Pirate_Shop_Doors_Opened1.png" id="1_3n8ys"]
+[ext_resource type="Texture2D" uid="uid://bxqyxms5vktid" path="res://Sprites/Buildings/Pirates Shop/Door Open/Pirate_Shop_Doors_Opened2.png" id="2_4cm72"]
+[ext_resource type="Texture2D" uid="uid://d7drkbkbcep7" path="res://Sprites/Buildings/Pirates Shop/Door Open/Pirate_Shop_Doors_Opened3.png" id="3_mmglx"]
+[ext_resource type="Texture2D" uid="uid://b7vprjpjrq3ko" path="res://Sprites/Buildings/Pirates Shop/Door Open/Pirate_Shop_Doors_Opened4.png" id="4_pp5ke"]
+[ext_resource type="Texture2D" uid="uid://wtaj78j5huy6" path="res://Sprites/Buildings/Pirates Shop/Door Open/Pirate_Shop_Doors_Opened5.png" id="5_acweq"]
+[ext_resource type="Texture2D" uid="uid://r64ti8f27tkc" path="res://Sprites/Buildings/Pirates Shop/Static/Pirate_Shop_Static.png" id="6_82k43"]
+[ext_resource type="PackedScene" uid="uid://b6hpa6dm45cgs" path="res://Scenes/Misc/Shadow/shadow.tscn" id="7_j43sj"]
+[ext_resource type="Script" path="res://Scripts/Buildings/pirate_shop.gd" id="7_um0uu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5rs7s"]
+animations = [{
+"frames": [ExtResource("1_3n8ys"), ExtResource("2_4cm72"), ExtResource("3_mmglx"), ExtResource("4_pp5ke"), ExtResource("5_acweq")],
+"loop": false,
+"name": &"Door Open",
+"speed": 4.0
+}, {
+"frames": [ExtResource("6_82k43")],
+"loop": true,
+"name": &"Static",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iiwr8"]
+size = Vector2(164, 58.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33bli"]
+size = Vector2(162, 411)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_soqj8"]
+size = Vector2(252, 333)
+
+[node name="PirateShop" type="AnimatedSprite2D"]
+z_index = 2
+frames = SubResource("SpriteFrames_5rs7s")
+animation = &"Static"
+script = ExtResource("7_um0uu")
+
+[node name="Enter" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enter"]
+position = Vector2(-117, 227)
+shape = SubResource("RectangleShape2D_iiwr8")
+
+[node name="Barriers" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barriers"]
+position = Vector2(-119, -11.5)
+shape = SubResource("RectangleShape2D_33bli")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Barriers"]
+position = Vector2(90, -64.5)
+shape = SubResource("RectangleShape2D_soqj8")
+
+[node name="Shadow" parent="." instance=ExtResource("7_j43sj")]
+z_index = -2
+position = Vector2(-119, 273.5)
+scale = Vector2(2.5625, 2.42188)
+
+[node name="Shadow2" parent="." instance=ExtResource("7_j43sj")]
+z_index = -2
+position = Vector2(92, 173)
+scale = Vector2(3.96875, 2.16406)
+
+[connection signal="animation_finished" from="." to="." method="_on_animation_finished"]
+[connection signal="body_entered" from="Enter" to="." method="_on_enter_body_entered"]
+[connection signal="body_exited" from="Enter" to="." method="_on_enter_body_exited"]

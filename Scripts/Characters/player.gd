@@ -7,6 +7,35 @@ var dirFacing
 var dir = Vector2()
 var can_move = true
 
+func _ready():
+	#Makes Players stuff global
+	Globals.Player = self
+	
+	#These if statements tell the game to spawn the player outside the respectvie building properly
+	if Globals.playerLeftShed:
+		position.x = -3667
+		position.y = -1186
+		Globals.playerLeftShed = false
+		
+	if Globals.playerLeftMysteriousHouse:
+		position.x = 5228
+		position.y = 1721
+		Globals.playerLeftMysteriousHouse = false
+		
+	if Globals.playerLeftShop:
+		position.x = 4934
+		position.y = -4146
+		Globals.playerLeftShop = false
+		
+
+func _process(delta):
+	#Creates a shadow under buildings
+	if Globals.underShadow:
+		modulate = Color.DARK_GRAY
+	else:
+		modulate = Color.WHITE
+		
+	print(str(position))
 
 
 

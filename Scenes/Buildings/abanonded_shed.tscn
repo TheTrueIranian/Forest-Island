@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://cs84qafgx1u2r"]
+
+[ext_resource type="Texture2D" uid="uid://rdlph3hm4glv" path="res://Sprites/Buildings/Abandonded Shed/Abandoned_Shed1.png" id="1_qp4ij"]
+[ext_resource type="Texture2D" uid="uid://sqtx38a35gba" path="res://Sprites/Buildings/Abandonded Shed/Abandoned_Shed2.png" id="2_mroxh"]
+[ext_resource type="Script" path="res://Scripts/Buildings/abanonded_shed.gd" id="3_vxtk2"]
+[ext_resource type="PackedScene" uid="uid://b6hpa6dm45cgs" path="res://Scenes/Misc/Shadow/shadow.tscn" id="4_dr041"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bq0ph"]
+animations = [{
+"frames": [ExtResource("1_qp4ij"), ExtResource("2_mroxh")],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vwgcb"]
+size = Vector2(131, 54)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_atqgd"]
+size = Vector2(308, 361)
+
+[node name="Abanonded Shed" type="AnimatedSprite2D"]
+z_index = 2
+frames = SubResource("SpriteFrames_bq0ph")
+playing = true
+script = ExtResource("3_vxtk2")
+
+[node name="Interaction" type="Area2D" parent="."]
+position = Vector2(7, 309)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interaction"]
+position = Vector2(-6, -48)
+shape = SubResource("RectangleShape2D_vwgcb")
+
+[node name="Barriers" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Barriers"]
+position = Vector2(0, 47.5)
+shape = SubResource("RectangleShape2D_atqgd")
+
+[node name="Shadow" parent="." instance=ExtResource("4_dr041")]
+show_behind_parent = true
+z_index = -2
+position = Vector2(-0.999999, 294.375)
+scale = Vector2(4.71875, 2.23047)
+
+[connection signal="body_entered" from="Interaction" to="." method="_on_interaction_body_entered"]
+[connection signal="body_exited" from="Interaction" to="." method="_on_interaction_body_exited"]
