@@ -1,0 +1,300 @@
+[gd_scene load_steps=54 format=3 uid="uid://de5p4naqs68i1"]
+
+[ext_resource type="Texture2D" uid="uid://rw408wo11vj" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Down/Black_Eat_Down_No_Pole1.png" id="2_21ema"]
+[ext_resource type="Texture2D" uid="uid://dru3oc75ebjvd" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Down/Black_Eat_Down_No_Pole2.png" id="3_04c3i"]
+[ext_resource type="Texture2D" uid="uid://cayrmsy65bpbw" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Left/Black_Eat_Left_No_Pole1.png" id="4_4jdvu"]
+[ext_resource type="Texture2D" uid="uid://bmlai2y1sfd21" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Left/Black_Eat_Left_No_Pole2.png" id="5_fyhth"]
+[ext_resource type="Texture2D" uid="uid://bmjfa757t0kn7" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Right/Black_Eat_Right_No_Pole1.png" id="6_7v3m3"]
+[ext_resource type="Texture2D" uid="uid://bwwlt78egghk4" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Right/Black_Eat_Right_No_Pole2.png" id="7_q3w4d"]
+[ext_resource type="Texture2D" uid="uid://c0h3syks4jvt1" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Up/Black_Eat_Up_No_Pole1.png" id="8_4lel8"]
+[ext_resource type="Texture2D" uid="uid://c4d2aikfdqku0" path="res://Sprites/Animals/Black Bear/Eat/No_Pole/Up/Black_Eat_Up_No_Pole2.png" id="9_1vnnw"]
+[ext_resource type="Texture2D" uid="uid://dcj6qn1pttrbo" path="res://Sprites/Animals/Black Bear/Eat/Pole/Down/Black_Eat_Down_W_Pole1.png" id="10_65g2s"]
+[ext_resource type="Texture2D" uid="uid://iltimwmaxxf7" path="res://Sprites/Animals/Black Bear/Eat/Pole/Down/Black_Eat_Down_W_Pole2.png" id="11_bkoul"]
+[ext_resource type="Texture2D" uid="uid://qb0ds2lrxj5j" path="res://Sprites/Animals/Black Bear/Eat/Pole/Left/Black_Eat_Left_W_Pole1.png" id="12_bw8hx"]
+[ext_resource type="Texture2D" uid="uid://c5kjp16r14um6" path="res://Sprites/Animals/Black Bear/Eat/Pole/Left/Black_Eat_Left_W_Pole2.png" id="13_p5cvo"]
+[ext_resource type="Texture2D" uid="uid://bbky6kg2qg8ho" path="res://Sprites/Animals/Black Bear/Eat/Pole/Right/Black_Eat_Right_W_Pole1.png" id="14_mhqpn"]
+[ext_resource type="Texture2D" uid="uid://cqfyxs43wiv20" path="res://Sprites/Animals/Black Bear/Eat/Pole/Right/Black_Eat_Right_W_Pole2.png" id="15_sjf6h"]
+[ext_resource type="Texture2D" uid="uid://c415koji4tds7" path="res://Sprites/Animals/Black Bear/Eat/Pole/Up/Black_Eat_Up_W_Pole1.png" id="16_u6ifb"]
+[ext_resource type="Texture2D" uid="uid://dcjb88felyyky" path="res://Sprites/Animals/Black Bear/Eat/Pole/Up/Black_Eat_Up_W_Pole2.png" id="17_16cj1"]
+[ext_resource type="Texture2D" uid="uid://htrqdyxc7xmq" path="res://Sprites/Animals/Black Bear/Run/Down/Black_Run_Down1.png" id="18_qc6n1"]
+[ext_resource type="Texture2D" uid="uid://bakmtbypt1l8p" path="res://Sprites/Animals/Black Bear/Run/Down/Black_Run_Down2.png" id="19_5p7bm"]
+[ext_resource type="Texture2D" uid="uid://buwe8xqtswfta" path="res://Sprites/Animals/Black Bear/Run/Down/Black_Run_Down3.png" id="20_j7wdk"]
+[ext_resource type="Texture2D" uid="uid://bbqny365qbweo" path="res://Sprites/Animals/Black Bear/Run/Down/Black_Run_Down4.png" id="21_3ucf6"]
+[ext_resource type="Texture2D" uid="uid://bgmk5bqejehgd" path="res://Sprites/Animals/Black Bear/Run/Left/Black_Run_Left1.png" id="22_6yv24"]
+[ext_resource type="Texture2D" uid="uid://c07yo2qif72ex" path="res://Sprites/Animals/Black Bear/Run/Left/Black_Run_Left2.png" id="23_cavyh"]
+[ext_resource type="Texture2D" uid="uid://dva0fc0vlfcu" path="res://Sprites/Animals/Black Bear/Run/Left/Black_Run_Left3.png" id="24_0axxc"]
+[ext_resource type="Texture2D" uid="uid://cdd8rep3k6cut" path="res://Sprites/Animals/Black Bear/Run/Left/Black_Run_Left4.png" id="25_qro7x"]
+[ext_resource type="Texture2D" uid="uid://dl5bodahreeyg" path="res://Sprites/Animals/Black Bear/Run/Right/Black_Run_Right1.png" id="26_jx4ww"]
+[ext_resource type="Texture2D" uid="uid://d21yal6ou3cik" path="res://Sprites/Animals/Black Bear/Run/Right/Black_Run_Right2.png" id="27_cv7qj"]
+[ext_resource type="Texture2D" uid="uid://di45lhcouq8dr" path="res://Sprites/Animals/Black Bear/Run/Right/Black_Run_Right3.png" id="28_msapd"]
+[ext_resource type="Texture2D" uid="uid://2n0xhdg3hkf6" path="res://Sprites/Animals/Black Bear/Run/Right/Black_Run_Right4.png" id="29_os68a"]
+[ext_resource type="Texture2D" uid="uid://c8f48tkn4hcgm" path="res://Sprites/Animals/Black Bear/Run/Up/Black_Run_Up1.png" id="30_vyfwb"]
+[ext_resource type="Texture2D" uid="uid://3swa5pjrksqx" path="res://Sprites/Animals/Black Bear/Run/Up/Black_Run_Up2.png" id="31_rvt0m"]
+[ext_resource type="Texture2D" uid="uid://rkb812m0ac1x" path="res://Sprites/Animals/Black Bear/Run/Up/Black_Run_Up3.png" id="32_72jv1"]
+[ext_resource type="Texture2D" uid="uid://b80tccovvqlfp" path="res://Sprites/Animals/Black Bear/Run/Up/Black_Run_Up4.png" id="33_esc3n"]
+[ext_resource type="Texture2D" uid="uid://baynr0rugkbjt" path="res://Sprites/Animals/Black Bear/Sleep/Down/Black_Sleep_Down1.png" id="34_txn6l"]
+[ext_resource type="Texture2D" uid="uid://cpp4yrae7aic" path="res://Sprites/Animals/Black Bear/Sleep/Down/Black_Sleep_Down2.png" id="35_4q2ui"]
+[ext_resource type="Texture2D" uid="uid://n2puc0dd7ixk" path="res://Sprites/Animals/Black Bear/Sleep/Down/Black_Sleep_Down3.png" id="36_narvp"]
+[ext_resource type="Texture2D" uid="uid://bbi3wasgisven" path="res://Sprites/Animals/Black Bear/Sleep/Down/Black_Sleep_Down4.png" id="37_1nvs0"]
+[ext_resource type="Texture2D" uid="uid://73bqcgxl5t00" path="res://Sprites/Animals/Black Bear/Sleep/Left/Black_Sleep_Left1.png" id="38_7jyw6"]
+[ext_resource type="Texture2D" uid="uid://ce6xld3fud5vm" path="res://Sprites/Animals/Black Bear/Sleep/Left/Black_Sleep_Left2.png" id="39_m7otg"]
+[ext_resource type="Texture2D" uid="uid://dvbham2xfc6in" path="res://Sprites/Animals/Black Bear/Sleep/Left/Black_Sleep_Left3.png" id="40_lkgg5"]
+[ext_resource type="Texture2D" uid="uid://dm3ypjsfmnn6i" path="res://Sprites/Animals/Black Bear/Sleep/Left/Black_Sleep_Left4.png" id="41_e6amv"]
+[ext_resource type="Texture2D" uid="uid://csydk71pj34j7" path="res://Sprites/Animals/Black Bear/Sleep/Right/Black_Sleep_Right1.png" id="42_5vjce"]
+[ext_resource type="Texture2D" uid="uid://bovu3k2ubg21o" path="res://Sprites/Animals/Black Bear/Sleep/Right/Black_Sleep_Right2.png" id="43_n1i1t"]
+[ext_resource type="Texture2D" uid="uid://c8tny21inngh2" path="res://Sprites/Animals/Black Bear/Sleep/Right/Black_Sleep_Right3.png" id="44_ldofk"]
+[ext_resource type="Texture2D" uid="uid://dpxn8d4j2vbgm" path="res://Sprites/Animals/Black Bear/Sleep/Right/Black_Sleep_Right4.png" id="45_j67ww"]
+[ext_resource type="Texture2D" uid="uid://cuc5a2x568llh" path="res://Sprites/Animals/Black Bear/Sleep/Up/Black_Sleep_Up1.png" id="46_fhh3r"]
+[ext_resource type="Texture2D" uid="uid://bjbihf7u5msnj" path="res://Sprites/Animals/Black Bear/Sleep/Up/Black_Sleep_Up2.png" id="47_qylrn"]
+[ext_resource type="Texture2D" uid="uid://c5cc3c0le0sls" path="res://Sprites/Animals/Black Bear/Sleep/Up/Black_Sleep_Up3.png" id="48_402rr"]
+[ext_resource type="Texture2D" uid="uid://segsttrxoilp" path="res://Sprites/Animals/Black Bear/Sleep/Up/Black_Sleep_Up4.png" id="49_uksnc"]
+
+[sub_resource type="GDScript" id="GDScript_g4o7s"]
+script/source = "extends CharacterBody2D
+
+#Activates when black bear wakes up from player
+var disturbed = false
+
+#Activates when the player brings the bear to eat
+var isEating = false
+
+#Activates when player takes the pole for the ship
+var hasPole = true
+
+#movement vars
+var run_speed = 100
+var dirFacing
+var dir = Vector2()
+
+#Following Vars
+var _position_last_frame := Vector2()
+var _cardinal_direction = 0
+var previous_position = global_position
+
+#Checks if is within bear eyesight
+var bearSeesPlayer = false
+
+func _ready():
+	Globals.BlackBear = self
+	modulate.a = 0.5
+	
+	
+func _process(delta):
+	if isEating:
+		modulate.a = 1
+		$CollisionShape2D.disabled = false
+
+func _physics_process(delta):
+	if disturbed and !isEating:
+		#Grab player position from Globals file
+		var player_position = Globals.Player.global_position - global_position
+		player_position = player_position.normalized()
+		move_and_collide(player_position * run_speed * delta)
+		#Get motion vector between previous and current position
+		var motion = position - _position_last_frame
+
+		# If the node actually moved, we'll recompute its direction.
+		# If it didn't, we'll just the last known one.
+		if motion.length() > 0.0001:
+			# Now if you want a value between N.S.W.E,
+			# you can use the angle of the motion.
+			_cardinal_direction = int(3.9 * (motion.rotated(PI / 3.9).angle() + PI) / TAU)
+		# You can also use it with an array since it's like an index
+		match _cardinal_direction:
+			0:
+				$Anim.play(\"Run(L)\")
+				dirFacing = Vector2.LEFT
+			1:
+				$Anim.play(\"Run(U)\")
+				dirFacing = Vector2.UP
+			2:
+				$Anim.play(\"Run(R)\")
+				dirFacing = Vector2.RIGHT
+			3:
+				$Anim.play(\"Run(D)\")
+				dirFacing = Vector2.DOWN
+
+		# Remember our current position for next frame
+		_position_last_frame = position
+		
+		
+	elif !disturbed and !isEating:
+		velocity.x = 0
+		velocity.y = 0
+		if dirFacing == Vector2.LEFT:
+			$Anim.play(\"Sleep(L)\")
+		elif dirFacing == Vector2.RIGHT:
+			$Anim.play(\"Sleep(R)\")
+		elif dirFacing == Vector2.UP:
+			$Anim.play(\"Sleep(U)\")
+		elif dirFacing == Vector2.DOWN:
+			$Anim.play(\"Sleep(D)\")
+			
+		
+	if isEating and hasPole:
+		velocity.x = 0
+		velocity.y = 0
+		if dirFacing == Vector2.LEFT:
+			$Anim.play(\"Eat(P)(L)\")
+		elif dirFacing == Vector2.RIGHT:
+			$Anim.play(\"Eat(P)(R)\")
+		elif dirFacing == Vector2.UP:
+			$Anim.play(\"Eat(P)(U)\")
+		elif dirFacing == Vector2.DOWN:
+			$Anim.play(\"Eat(P)(D)\")
+	else:
+		pass
+		
+	if bearSeesPlayer and !Globals.Player.is_walking:
+		disturbed = true
+	else:
+		disturbed = false
+
+
+func is_moving():
+	if global_position != previous_position:
+		return true
+	else:
+		return false
+		previous_position = global_position
+		
+func _on_attack_body_entered(body):
+	if body.name == \"Player\":
+		pass
+		
+func _on_eyesight_body_entered(body):
+	if body.name == \"Player\":
+		bearSeesPlayer = true
+		
+func _on_eyesight_body_exited(body):
+	if body.name == \"Player\":
+		bearSeesPlayer = false
+
+
+
+func _on_attack_body_exited(body):
+	if body.name == \"Player\":
+		pass
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hrx4d"]
+animations = [{
+"frames": [ExtResource("2_21ema"), ExtResource("3_04c3i")],
+"loop": true,
+"name": &"Eat(NP)(D)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("4_4jdvu"), ExtResource("5_fyhth")],
+"loop": true,
+"name": &"Eat(NP)(L)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("6_7v3m3"), ExtResource("7_q3w4d")],
+"loop": true,
+"name": &"Eat(NP)(R)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("8_4lel8"), ExtResource("9_1vnnw")],
+"loop": true,
+"name": &"Eat(NP)(U)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("10_65g2s"), ExtResource("11_bkoul")],
+"loop": true,
+"name": &"Eat(P)(D)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("12_bw8hx"), ExtResource("13_p5cvo")],
+"loop": true,
+"name": &"Eat(P)(L)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("14_mhqpn"), ExtResource("15_sjf6h")],
+"loop": true,
+"name": &"Eat(P)(R)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("16_u6ifb"), ExtResource("17_16cj1")],
+"loop": true,
+"name": &"Eat(P)(U)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("18_qc6n1"), ExtResource("19_5p7bm"), ExtResource("20_j7wdk"), ExtResource("21_3ucf6")],
+"loop": true,
+"name": &"Run(D)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("22_6yv24"), ExtResource("23_cavyh"), ExtResource("24_0axxc"), ExtResource("25_qro7x")],
+"loop": true,
+"name": &"Run(L)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("26_jx4ww"), ExtResource("27_cv7qj"), ExtResource("28_msapd"), ExtResource("29_os68a")],
+"loop": true,
+"name": &"Run(R)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("30_vyfwb"), ExtResource("31_rvt0m"), ExtResource("32_72jv1"), ExtResource("33_esc3n")],
+"loop": true,
+"name": &"Run(U)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("34_txn6l"), ExtResource("35_4q2ui"), ExtResource("36_narvp"), ExtResource("37_1nvs0")],
+"loop": true,
+"name": &"Sleep(D)",
+"speed": 1.5
+}, {
+"frames": [ExtResource("38_7jyw6"), ExtResource("39_m7otg"), ExtResource("40_lkgg5"), ExtResource("41_e6amv")],
+"loop": true,
+"name": &"Sleep(L)",
+"speed": 1.5
+}, {
+"frames": [ExtResource("42_5vjce"), ExtResource("43_n1i1t"), ExtResource("44_ldofk"), ExtResource("45_j67ww")],
+"loop": true,
+"name": &"Sleep(R)",
+"speed": 1.5
+}, {
+"frames": [ExtResource("46_fhh3r"), ExtResource("47_qylrn"), ExtResource("48_402rr"), ExtResource("49_uksnc")],
+"loop": true,
+"name": &"Sleep(U)",
+"speed": 1.5
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u61b2"]
+size = Vector2(47, 57)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8g6cf"]
+radius = 34.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g0ald"]
+radius = 381.755
+
+[node name="BlackBear" type="CharacterBody2D"]
+script = SubResource("GDScript_g4o7s")
+
+[node name="Anim" type="AnimatedSprite2D" parent="."]
+frames = SubResource("SpriteFrames_hrx4d")
+animation = &"Sleep(D)"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, 2.5)
+shape = SubResource("RectangleShape2D_u61b2")
+disabled = true
+
+[node name="AttackGhostBear" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackGhostBear"]
+visible = false
+position = Vector2(-1, 4)
+shape = SubResource("CircleShape2D_8g6cf")
+
+[node name="Eyesight" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eyesight"]
+visible = false
+shape = SubResource("CircleShape2D_g0ald")
+
+[connection signal="body_entered" from="AttackGhostBear" to="." method="_on_attack_body_entered"]
+[connection signal="body_exited" from="AttackGhostBear" to="." method="_on_attack_body_exited"]
+[connection signal="body_entered" from="Eyesight" to="." method="_on_eyesight_body_entered"]
+[connection signal="body_exited" from="Eyesight" to="." method="_on_eyesight_body_exited"]

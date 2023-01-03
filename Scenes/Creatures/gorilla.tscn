@@ -1,0 +1,151 @@
+[gd_scene load_steps=44 format=3 uid="uid://cjugirxmju0k1"]
+
+[ext_resource type="Script" path="res://Scripts/Animals/gorilla.gd" id="1_vinhk"]
+[ext_resource type="Texture2D" uid="uid://b4gkjbcbpb8iu" path="res://Sprites/Animals/Gorilla/Ready/Gorilla_Alert1.png" id="1_xphoe"]
+[ext_resource type="Texture2D" uid="uid://bnwvqvc8ditog" path="res://Sprites/Animals/Gorilla/Ready/Gorilla_Alert2.png" id="2_d8i40"]
+[ext_resource type="Texture2D" uid="uid://drdcb2iwkc4hy" path="res://Sprites/Animals/Gorilla/Ready/Gorilla_Alert3.png" id="3_pf61f"]
+[ext_resource type="Texture2D" uid="uid://cudmj1uxvmepb" path="res://Sprites/Animals/Gorilla/Ready/Gorilla_Alert4.png" id="4_2ic04"]
+[ext_resource type="Texture2D" uid="uid://p26nfnel43ne" path="res://Sprites/Animals/Gorilla/Alerted/Gorilla_Spotted.png" id="5_2dx8e"]
+[ext_resource type="Texture2D" uid="uid://b8xpw55a308sr" path="res://Sprites/Animals/Gorilla/Run/Down/Gorilla_Run_Down1.png" id="6_25h3t"]
+[ext_resource type="Texture2D" uid="uid://d242s6fx0agws" path="res://Sprites/Animals/Gorilla/Run/Down/Gorilla_Run_Down2.png" id="7_cm6w0"]
+[ext_resource type="Texture2D" uid="uid://d1hxicmeah32s" path="res://Sprites/Animals/Gorilla/Gassed/Down/Gorilla_Gassed_Down1.png" id="7_xwkap"]
+[ext_resource type="Texture2D" uid="uid://rpgc56qux1c1" path="res://Sprites/Animals/Gorilla/Gassed/Down/Gorilla_Gassed_Down2.png" id="8_8u8lw"]
+[ext_resource type="Texture2D" uid="uid://bm3k4arn1e8e6" path="res://Sprites/Animals/Gorilla/Run/Down/Gorilla_Run_Down3.png" id="8_peg56"]
+[ext_resource type="Texture2D" uid="uid://chcc56jta2c8v" path="res://Sprites/Animals/Gorilla/Run/Down/Gorilla_Run_Down4.png" id="9_bkpp4"]
+[ext_resource type="Texture2D" uid="uid://vcxu18c5aler" path="res://Sprites/Animals/Gorilla/Gassed/Down/Gorilla_Gassed_Down3.png" id="9_g2a8t"]
+[ext_resource type="Texture2D" uid="uid://xoaqnuwxhp67" path="res://Sprites/Animals/Gorilla/Gassed/Left/Gorilla_Gassed_Left1.png" id="10_oro2w"]
+[ext_resource type="Texture2D" uid="uid://crawaty5wnm3u" path="res://Sprites/Animals/Gorilla/Run/Left/Gorilla_Run_Left1.png" id="10_vpjt1"]
+[ext_resource type="Texture2D" uid="uid://us83bams533r" path="res://Sprites/Animals/Gorilla/Run/Left/Gorilla_Run_Left2.png" id="11_1x27f"]
+[ext_resource type="Texture2D" uid="uid://d1au7l0gjfea" path="res://Sprites/Animals/Gorilla/Gassed/Left/Gorilla_Gassed_Left2.png" id="11_l2sat"]
+[ext_resource type="Texture2D" uid="uid://kwig7ecobf1k" path="res://Sprites/Animals/Gorilla/Run/Left/Gorilla_Run_Left3.png" id="12_7c223"]
+[ext_resource type="Texture2D" uid="uid://cmmnodlwylnnt" path="res://Sprites/Animals/Gorilla/Gassed/Left/Gorilla_Gassed_Left3.png" id="12_e6vkd"]
+[ext_resource type="Texture2D" uid="uid://bpfu10shhcd0u" path="res://Sprites/Animals/Gorilla/Gassed/Right/Gorilla_Gassed_Right1.png" id="13_nb87r"]
+[ext_resource type="Texture2D" uid="uid://bvgsksm77dri0" path="res://Sprites/Animals/Gorilla/Run/Left/Gorilla_Run_Left4.png" id="13_otej6"]
+[ext_resource type="Texture2D" uid="uid://cgxheeecakdys" path="res://Sprites/Animals/Gorilla/Gassed/Right/Gorilla_Gassed_Right2.png" id="14_dqb7n"]
+[ext_resource type="Texture2D" uid="uid://che3jcwlmsc1k" path="res://Sprites/Animals/Gorilla/Run/Right/Gorilla_Run_Right1.png" id="14_weu1e"]
+[ext_resource type="Texture2D" uid="uid://cxglv2jvo4yet" path="res://Sprites/Animals/Gorilla/Run/Right/Gorilla_Run_Right2.png" id="15_dvc4e"]
+[ext_resource type="Texture2D" uid="uid://dc8lqse8x8v8j" path="res://Sprites/Animals/Gorilla/Gassed/Right/Gorilla_Gassed_Right3.png" id="15_fg5sb"]
+[ext_resource type="Texture2D" uid="uid://ccuk2ymbmlv4g" path="res://Sprites/Animals/Gorilla/Run/Right/Gorilla_Run_Right3.png" id="16_i3xfr"]
+[ext_resource type="Texture2D" uid="uid://dnxm0ugtm3qs2" path="res://Sprites/Animals/Gorilla/Gassed/Up/Gorilla_Gassed_Up1.png" id="16_vj7m0"]
+[ext_resource type="Texture2D" uid="uid://c7n76j8n33rhv" path="res://Sprites/Animals/Gorilla/Run/Right/Gorilla_Run_Right4.png" id="17_62rmi"]
+[ext_resource type="Texture2D" uid="uid://dx8q3kie43eg4" path="res://Sprites/Animals/Gorilla/Gassed/Up/Gorilla_Gassed_Up2.png" id="17_it15f"]
+[ext_resource type="Texture2D" uid="uid://c7h6sniac80de" path="res://Sprites/Animals/Gorilla/Run/Up/Gorilla_Run_Up1.png" id="18_k6nkc"]
+[ext_resource type="Texture2D" uid="uid://dmwreru3h4tci" path="res://Sprites/Animals/Gorilla/Gassed/Up/Gorilla_Gassed_Up3.png" id="18_k11nw"]
+[ext_resource type="Texture2D" uid="uid://b1rht50bnduug" path="res://Sprites/Animals/Gorilla/Run/Up/Gorilla_Run_Up2.png" id="19_q46n8"]
+[ext_resource type="Texture2D" uid="uid://ccsnc5ykg3o1o" path="res://Sprites/Animals/Gorilla/Run/Up/Gorilla_Run_Up3.png" id="20_g1qxb"]
+[ext_resource type="Texture2D" uid="uid://b3f5gpd7wy1ki" path="res://Sprites/Animals/Gorilla/Run/Up/Gorilla_Run_Up4.png" id="21_bdkkg"]
+[ext_resource type="Texture2D" uid="uid://nv1iwy4pboqk" path="res://Sprites/Animals/Gorilla/Sleep/Gorilla_Sleep1.png" id="22_2760r"]
+[ext_resource type="Texture2D" uid="uid://1smrp4k20cj1" path="res://Sprites/Animals/Gorilla/Sleep/Gorilla_Sleep2.png" id="23_mo83y"]
+[ext_resource type="Texture2D" uid="uid://brigxpor30y5m" path="res://Sprites/Animals/Gorilla/Sleep/Gorilla_Sleep3.png" id="24_jhlm8"]
+[ext_resource type="Texture2D" uid="uid://dnun81hspru2r" path="res://Sprites/Animals/Gorilla/Sleep/Gorilla_Sleep4.png" id="25_mw4id"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_by4mi"]
+animations = [{
+"frames": [ExtResource("1_xphoe"), ExtResource("2_d8i40"), ExtResource("3_pf61f"), ExtResource("4_2ic04")],
+"loop": true,
+"name": &"Alert",
+"speed": 4.0
+}, {
+"frames": [ExtResource("5_2dx8e")],
+"loop": false,
+"name": &"Alerted",
+"speed": 5.0
+}, {
+"frames": [ExtResource("7_xwkap"), ExtResource("8_8u8lw"), ExtResource("9_g2a8t")],
+"loop": true,
+"name": &"Gassed(D)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("10_oro2w"), ExtResource("11_l2sat"), ExtResource("12_e6vkd")],
+"loop": true,
+"name": &"Gassed(L)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("13_nb87r"), ExtResource("14_dqb7n"), ExtResource("15_fg5sb")],
+"loop": true,
+"name": &"Gassed(R)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("16_vj7m0"), ExtResource("17_it15f"), ExtResource("18_k11nw")],
+"loop": true,
+"name": &"Gassed(U)",
+"speed": 2.0
+}, {
+"frames": [ExtResource("6_25h3t"), ExtResource("7_cm6w0"), ExtResource("8_peg56"), ExtResource("9_bkpp4")],
+"loop": true,
+"name": &"Run(D)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("10_vpjt1"), ExtResource("11_1x27f"), ExtResource("12_7c223"), ExtResource("13_otej6")],
+"loop": true,
+"name": &"Run(L)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("14_weu1e"), ExtResource("15_dvc4e"), ExtResource("16_i3xfr"), ExtResource("17_62rmi")],
+"loop": true,
+"name": &"Run(R)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("18_k6nkc"), ExtResource("19_q46n8"), ExtResource("20_g1qxb"), ExtResource("21_bdkkg")],
+"loop": true,
+"name": &"Run(U)",
+"speed": 5.0
+}, {
+"frames": [ExtResource("22_2760r"), ExtResource("23_mo83y"), ExtResource("24_jhlm8"), ExtResource("25_mw4id")],
+"loop": true,
+"name": &"Sleep",
+"speed": 2.5
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t2gg3"]
+radius = 18.5
+height = 64.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d7o8f"]
+radius = 19.0014
+height = 65.0058
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bqvks"]
+radius = 20.0
+height = 66.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qiv70"]
+radius = 207.697
+
+[node name="Gorilla" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_vinhk")
+
+[node name="Anim" type="AnimatedSprite2D" parent="."]
+frames = SubResource("SpriteFrames_by4mi")
+animation = &"Gassed(L)"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_t2gg3")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+rotation = -1.56773
+shape = SubResource("CapsuleShape2D_d7o8f")
+disabled = true
+
+[node name="Attack" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Attack"]
+visible = false
+position = Vector2(-1, 2)
+shape = SubResource("CapsuleShape2D_bqvks")
+
+[node name="Eyesight" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eyesight"]
+shape = SubResource("CircleShape2D_qiv70")
+disabled = true
+
+[node name="RunTimer" type="Timer" parent="."]
+wait_time = 60.0
+one_shot = true
+
+[connection signal="animation_finished" from="Anim" to="." method="_on_anim_animation_finished"]
+[connection signal="body_entered" from="Eyesight" to="." method="_on_eyesight_body_entered"]
+[connection signal="timeout" from="RunTimer" to="." method="_on_run_timer_timeout"]

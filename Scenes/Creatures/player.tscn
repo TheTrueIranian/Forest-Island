@@ -269,8 +269,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jtmts"]
-height = 54.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kb0ru"]
+size = Vector2(25, 55)
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 1
@@ -283,9 +283,8 @@ animation = &"IdleDown(M)"
 playing = true
 
 [node name="Hitbox" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(-1.9, 3)
-shape = SubResource("CapsuleShape2D_jtmts")
+position = Vector2(-1.5, 3.5)
+shape = SubResource("RectangleShape2D_kb0ru")
 
 [node name="Camera" type="Camera2D" parent="."]
 scale = Vector2(1e-05, 1e-05)

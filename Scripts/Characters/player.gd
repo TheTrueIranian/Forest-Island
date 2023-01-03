@@ -3,6 +3,7 @@ extends CharacterBody2D
 #movement vars
 var run_speed = 180
 var walk_speed = 50
+var is_walking = false
 var dirFacing
 var dir = Vector2()
 var can_move = true
@@ -34,8 +35,6 @@ func _process(delta):
 		modulate = Color.DARK_GRAY
 	else:
 		modulate = Color.WHITE
-		
-	print(str(position))
 
 
 
@@ -44,11 +43,13 @@ func _physics_process(_delta):
 		velocity.x = 0
 		if Input.is_key_pressed(KEY_SHIFT):
 			velocity.y = 0
+			is_walking = true
 			while velocity.y >= -walk_speed:
 				velocity.y -= 0.2
 			dirFacing = Vector2.UP
 			$Anim.play("WalkUp(M)")
 		elif !Input.is_key_pressed(KEY_SHIFT):
+			is_walking = false
 			while velocity.y >= -run_speed:
 				velocity.y -= 0.5
 			dirFacing = Vector2.UP
@@ -57,11 +58,13 @@ func _physics_process(_delta):
 		velocity.x = 0
 		if Input.is_key_pressed(KEY_SHIFT):
 			velocity.y = 0
+			is_walking = true
 			while velocity.y <= walk_speed:
 				velocity.y += 0.2
 			dirFacing = Vector2.DOWN
 			$Anim.play("WalkDown(M)")
 		elif !Input.is_key_pressed(KEY_SHIFT):
+			is_walking = false
 			while velocity.y <= run_speed:
 				velocity.y += 0.5
 			dirFacing = Vector2.DOWN
@@ -70,11 +73,13 @@ func _physics_process(_delta):
 		velocity.y = 0
 		if Input.is_key_pressed(KEY_SHIFT):
 			velocity.x = 0
+			is_walking = true
 			while velocity.x <= walk_speed:
 				velocity.x += 0.2
 			dirFacing = Vector2.RIGHT
 			$Anim.play("WalkRight(M)")
 		elif !Input.is_key_pressed(KEY_SHIFT):
+			is_walking = false
 			while velocity.x <= run_speed:
 				velocity.x += 0.5
 			dirFacing = Vector2.RIGHT
@@ -83,11 +88,13 @@ func _physics_process(_delta):
 		velocity.y = 0
 		if Input.is_key_pressed(KEY_SHIFT):
 			velocity.x = 0
+			is_walking = true
 			while velocity.x >= -walk_speed:
 				velocity.x -= 0.2
 			dirFacing = Vector2.LEFT
 			$Anim.play("WalkLeft(M)")
 		elif !Input.is_key_pressed(KEY_SHIFT):
+			is_walking = false
 			while velocity.x >= -run_speed:
 				velocity.x -= 0.5
 			dirFacing = Vector2.LEFT

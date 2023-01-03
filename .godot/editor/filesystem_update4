@@ -1,4 +1,6 @@
 res://Scenes/tile_map.tscn
 res://Scenes/Creatures/player.tscn
 res://Scenes/Creatures/grizzly_bear.tscn
+res://Scenes/Creatures/black_bear.tscn
+res://Scenes/Creatures/gorilla.tscn
 res://Debug/debug.tscn

@@ -3,6 +3,8 @@ extends Node
 var Player
 var Grizzly
 var World
+var BlackBear
+var Gorilla
 
 #Check if player has left the abandoned shed
 var playerLeftShed = false

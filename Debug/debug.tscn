@@ -1,12 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://y1pnovnqrdd5"]
 
 [ext_resource type="PackedScene" uid="uid://71eicw4aul2b" path="res://Scenes/Creatures/player.tscn" id="1_vymf1"]
-[ext_resource type="PackedScene" uid="uid://b8hupekhm17mm" path="res://Scenes/Creatures/grizzly_bear.tscn" id="2_scddq"]
+[ext_resource type="PackedScene" uid="uid://cjugirxmju0k1" path="res://Scenes/Creatures/gorilla.tscn" id="2_fxs1u"]
 
 [node name="Debug" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_vymf1")]
 position = Vector2(68, 181)
 
-[node name="GrizzlyBear" parent="." instance=ExtResource("2_scddq")]
-position = Vector2(-445, -492)
+[node name="Gorilla" parent="." instance=ExtResource("2_fxs1u")]
