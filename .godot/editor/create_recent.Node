@@ -1,9 +1,9 @@
 CollisionShape2D
-Timer
 Area2D
-StaticBody2D
 AnimatedSprite2D
 CharacterBody2D
+Timer
+StaticBody2D
 NavigationAgent2D
 NavigationLink2D
 NavigationRegion2D

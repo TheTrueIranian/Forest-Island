@@ -1,0 +1,228 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_y1a3o"]
+
+[resource]
+script = ExtResource("1_y1a3o")
+metadata/dialogue_manager_version = "2.7.0"
+metadata/titles = {
+"Mysterious_Man_Tooth_Acquired": "3"
+}
+metadata/first_title = "3"
+metadata/lines = {
+"1": {
+"next_id": "3",
+"text": "Mysterious_Man_Tooth_Acquired",
+"type": "title"
+},
+"10": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "17",
+"parent_id": "8",
+"text": "I cannot thank you enough, here is your long awaited prize",
+"text_replacements": [],
+"translation_key": "I cannot thank you enough, here is your long awaited prize",
+"type": "dialogue"
+},
+"11": {
+"next_id": "12",
+"next_id_after": "17",
+"text": "It is an animal tooth that I have found.",
+"text_replacements": [],
+"translation_key": "It is an animal tooth that I have found.",
+"type": "response"
+},
+"12": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "13",
+"parent_id": "11",
+"text": "It is a large tooth of an animal.",
+"text_replacements": [],
+"translation_key": "It is a large tooth of an animal.",
+"type": "dialogue"
+},
+"13": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "14",
+"parent_id": "11",
+"text": "Oh my God that'll help me eat!",
+"text_replacements": [],
+"translation_key": "Oh my God that'll help me eat!",
+"type": "dialogue"
+},
+"14": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "15",
+"parent_id": "11",
+"text": "Just for you.",
+"text_replacements": [],
+"translation_key": "Just for you.",
+"type": "dialogue"
+},
+"15": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "17",
+"parent_id": "11",
+"text": "Thank you kind traveler! I shall give you the key.",
+"text_replacements": [],
+"translation_key": "Thank you kind traveler! I shall give you the key.",
+"type": "dialogue"
+},
+"17": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Player"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "can_move"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": true
+}]
+},
+"next_id": "",
+"type": "mutation"
+},
+"3": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Player"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "can_move"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": false
+}]
+},
+"next_id": "4",
+"type": "mutation"
+},
+"4": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "5",
+"text": "What is that?",
+"text_replacements": [],
+"translation_key": "What is that?",
+"type": "dialogue"
+},
+"5": {
+"next_id": "6",
+"next_id_after": "17",
+"responses": PackedStringArray("5", "8", "11"),
+"text": "It is the tooth of the all mighty gorilla that I have defeated by hand.",
+"text_replacements": [],
+"translation_key": "It is the tooth of the all mighty gorilla that I have defeated by hand.",
+"type": "response"
+},
+"6": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "7",
+"parent_id": "5",
+"text": "It is the tooth of the Gorilla, the beast, the legend.",
+"text_replacements": [],
+"translation_key": "It is the tooth of the Gorilla, the beast, the legend.",
+"type": "dialogue"
+},
+"7": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "17",
+"parent_id": "5",
+"text": "That sounds awesome! Thank you! [wait=2] Oh, here is your prize.",
+"text_replacements": [],
+"translation_key": "That sounds awesome! Thank you! [wait=2] Oh, here is your prize.",
+"type": "dialogue"
+},
+"8": {
+"next_id": "9",
+"next_id_after": "17",
+"text": "It will help you eat your food.",
+"text_replacements": [],
+"translation_key": "It will help you eat your food.",
+"type": "response"
+},
+"9": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "10",
+"parent_id": "8",
+"text": "I believe it will help you eat your food.",
+"text_replacements": [],
+"translation_key": "I believe it will help you eat your food.",
+"type": "dialogue"
+}
+}

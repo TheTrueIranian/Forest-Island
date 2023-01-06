@@ -1,6 +1,4 @@
-res://Scenes/tile_map.tscn
-res://Scenes/Creatures/player.tscn
-res://Scenes/Creatures/grizzly_bear.tscn
-res://Scenes/Creatures/black_bear.tscn
-res://Scenes/Creatures/gorilla.tscn
-res://Debug/debug.tscn
+res://Scenes/Creatures/pirate.tscn
+res://Scripts/Characters/pirate.gd
+res://Scenes/TileMap(s)/inside_pirate_shop.tscn
+res://addons/dialogue_manager/example_balloon/example_balloon.tscn

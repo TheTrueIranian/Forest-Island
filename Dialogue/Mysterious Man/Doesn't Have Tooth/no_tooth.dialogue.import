@@ -1,0 +1,14 @@
+[remap]
+
+importer="dialogue_manager_compiler_4"
+type="Resource"
+uid="uid://ddil1t1crbom5"
+path="res://.godot/imported/no_tooth.dialogue-5be6b43514a16bbaf93c83d0a16cd6fb.tres"
+
+[deps]
+
+source_file="res://Dialogue/Mysterious Man/Doesn't Have Tooth/no_tooth.dialogue"
+dest_files=["res://.godot/imported/no_tooth.dialogue-5be6b43514a16bbaf93c83d0a16cd6fb.tres"]
+
+[params]
+

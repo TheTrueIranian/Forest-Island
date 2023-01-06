@@ -1,5 +1,6 @@
-res://Scripts/Animals
+res://Scripts/Characters
 res://Scenes/Creatures
+res://Scripts/Animals
 res://Debug
 res://Scripts/Areas
 res://Scripts/Buildings
@@ -12,5 +13,4 @@ res://Sprites/Misc/Light
 res://Scripts
 res://Sprites/Furniture/Empty Dinner Table
 res://Sprites/Furniture/Shovel
-res://Scripts/Characters
 res://Scenes

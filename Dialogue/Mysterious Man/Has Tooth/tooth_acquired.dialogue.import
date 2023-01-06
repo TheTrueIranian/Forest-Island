@@ -1,0 +1,14 @@
+[remap]
+
+importer="dialogue_manager_compiler_4"
+type="Resource"
+uid="uid://leyt88c5ssqw"
+path="res://.godot/imported/tooth_acquired.dialogue-a78a2e1e25b3cb3159421aae0d6b6173.tres"
+
+[deps]
+
+source_file="res://Dialogue/Mysterious Man/Has Tooth/tooth_acquired.dialogue"
+dest_files=["res://.godot/imported/tooth_acquired.dialogue-a78a2e1e25b3cb3159421aae0d6b6173.tres"]
+
+[params]
+

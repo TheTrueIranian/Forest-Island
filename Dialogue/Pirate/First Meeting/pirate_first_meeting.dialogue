@@ -1,0 +1,19 @@
+~ pirate_first_meeting
+
+set Globals.Pirate.isTalking = true
+set Globals.Pirate.hasMet = true
+set Globals.Player.can_move = false
+Pirate: Hello Traveler! What's ye name?
+{{Globals.playerName}}: I am {{Globals.playerName}}
+Pirate: Cool! 
+% Pirate: Well, what're ye in search for?
+% Pirate: How can I help ye today?
+{{Globals.playerName}}: Well I actually was looking for something to help me get out of here.
+Pirate: Well, I do have one base of a ship, but ye luck ends there {{Globals.playerName}}.
+{{Globals.playerName}}: What? Why?
+Pirate: It's not for sale.
+{{Globals.playerName}}: Aw cmon, is there anything I can do?
+Pirate: Well, how about this. I'll sell it to ya if ye can answer me riddle.
+{{Globals.playerName}}: You've gotta be kidding me.
+set Globals.Pirate.isTalking = false
+set Globals.Player.can_move = true

@@ -1,0 +1,17 @@
+~ Mysterious_Man_Tooth_Acquired
+
+set Globals.Player.can_move = false
+Ch***?: What is that?
+- It is the tooth of the all mighty gorilla that I have defeated by hand.
+	{{Globals.playerName}}: It is the tooth of the Gorilla, the beast, the legend.
+	Ch***?: That sounds awesome! Thank you! [wait=2] Oh, here is your prize.
+- It will help you eat your food.
+	{{Globals.playerName}}: I believe it will help you eat your food. 
+	Ch***?: I cannot thank you enough, here is your long awaited prize
+- It is an animal tooth that I have found.
+	{{Globals.playerName}}: It is a large tooth of an animal.
+	Ch***?: Oh my God that'll help me eat!
+	{{Globals.playerName}}: Just for you.
+	Ch***?: Thank you kind traveler! I shall give you the key.
+	
+set Globals.Player.can_move = true

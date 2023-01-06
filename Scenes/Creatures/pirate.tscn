@@ -1,0 +1,70 @@
+[gd_scene load_steps=14 format=3 uid="uid://ctgo34ckoxqlq"]
+
+[ext_resource type="Script" path="res://Scripts/Characters/pirate.gd" id="1_fxn72"]
+[ext_resource type="Texture2D" uid="uid://b1pptn4befm2q" path="res://Sprites/Characters/Pirate/Alert/Pirate_Alerted.png" id="1_pi4wq"]
+[ext_resource type="Texture2D" uid="uid://51s4shicceb" path="res://Sprites/Characters/Pirate/Crying/Pirate_Crying1.png" id="2_2foyd"]
+[ext_resource type="Texture2D" uid="uid://2eujk3i3f1va" path="res://Sprites/Characters/Pirate/Crying/Pirate_Crying2.png" id="3_b6j00"]
+[ext_resource type="Texture2D" uid="uid://1x4ahgavjoyi" path="res://Sprites/Characters/Pirate/Laughing/Pirate_Laughing1.png" id="4_5skuc"]
+[ext_resource type="Texture2D" uid="uid://c7ghfc4aj2vso" path="res://Sprites/Characters/Pirate/Laughing/Pirate_Laughing2.png" id="5_kpmlo"]
+[ext_resource type="Texture2D" uid="uid://bv1hp8pjluv0u" path="res://Sprites/Characters/Pirate/Static/Pirate_Static1.png" id="6_n3t0p"]
+[ext_resource type="Texture2D" uid="uid://ctfg274vhnmfq" path="res://Sprites/Characters/Pirate/Static/Pirate_Static2.png" id="7_yrq6x"]
+[ext_resource type="Texture2D" uid="uid://cbawoywjrdfjh" path="res://Sprites/Characters/Pirate/Talking/Pirate_Talking1.png" id="8_5pkqp"]
+[ext_resource type="Texture2D" uid="uid://cw1mbfv272p3f" path="res://Sprites/Characters/Pirate/Talking/Pirate_Talking2.png" id="9_hrgan"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_un6jv"]
+animations = [{
+"frames": [ExtResource("1_pi4wq")],
+"loop": false,
+"name": &"Alerted",
+"speed": 5.0
+}, {
+"frames": [ExtResource("2_2foyd"), ExtResource("3_b6j00")],
+"loop": true,
+"name": &"Crying",
+"speed": 2.0
+}, {
+"frames": [ExtResource("4_5skuc"), ExtResource("5_kpmlo")],
+"loop": true,
+"name": &"Laughing",
+"speed": 3.0
+}, {
+"frames": [ExtResource("6_n3t0p"), ExtResource("7_yrq6x")],
+"loop": true,
+"name": &"Static",
+"speed": 1.5
+}, {
+"frames": [ExtResource("8_5pkqp"), ExtResource("9_hrgan")],
+"loop": true,
+"name": &"Talking",
+"speed": 2.5
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ephr8"]
+radius = 17.0
+height = 72.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xdsc0"]
+size = Vector2(95, 150)
+
+[node name="Pirate" type="CharacterBody2D"]
+script = ExtResource("1_fxn72")
+
+[node name="Anim" type="AnimatedSprite2D" parent="."]
+position = Vector2(23.5, 23.5)
+scale = Vector2(0.632813, 0.632813)
+frames = SubResource("SpriteFrames_un6jv")
+animation = &"Static"
+playing = true
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+position = Vector2(21, 25)
+shape = SubResource("CapsuleShape2D_ephr8")
+
+[node name="Interact" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interact"]
+position = Vector2(-69, 24)
+shape = SubResource("RectangleShape2D_xdsc0")
+
+[connection signal="body_entered" from="Interact" to="." method="_on_interact_body_entered"]
+[connection signal="body_exited" from="Interact" to="." method="_on_interact_body_exited"]

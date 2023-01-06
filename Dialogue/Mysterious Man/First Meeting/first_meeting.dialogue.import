@@ -1,0 +1,14 @@
+[remap]
+
+importer="dialogue_manager_compiler_4"
+type="Resource"
+uid="uid://dy01ont4tws45"
+path="res://.godot/imported/first_meeting.dialogue-bdf6cccabb6d4a26e81b955d447e060f.tres"
+
+[deps]
+
+source_file="res://Dialogue/Mysterious Man/First Meeting/first_meeting.dialogue"
+dest_files=["res://.godot/imported/first_meeting.dialogue-bdf6cccabb6d4a26e81b955d447e060f.tres"]
+
+[params]
+

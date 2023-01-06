@@ -1,0 +1,10 @@
+~ Mysterious_Man_First_Meeting
+
+Ch***?: [[Hello?|Huh?|Wha-who are you?]] (Press Enter)
+{{Globals.playerName}}: Oh God, are you okay? You look awful.
+Ch***?: I, I haven't eaten in weeks. Or showered...or done anything really.
+{{Globals.playerName}}: There's food right next to you, why don't you eat that?
+Ch***?: I would, but I've lost all my teeth. I've been here for so long. [wait=1.5] Tell you what, since you're in such good shape, if you can fetch me something to help me eat, I might just give you something super useful.
+{{Globals.playerName}}: I'll try.
+???: *RAWWWHHHHH!*
+{{Globals.playerName}}: What was that?!

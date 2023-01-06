@@ -1,0 +1,134 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_6vntw"]
+
+[resource]
+script = ExtResource("1_6vntw")
+metadata/dialogue_manager_version = "2.7.0"
+metadata/titles = {
+"Mysterious_Man_First_Meeting": "3"
+}
+metadata/first_title = "3"
+metadata/lines = {
+"1": {
+"next_id": "3",
+"text": "Mysterious_Man_First_Meeting",
+"type": "title"
+},
+"10": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "",
+"text": "What was that?!",
+"text_replacements": [],
+"translation_key": "What was that?!",
+"type": "dialogue"
+},
+"3": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "4",
+"text": "[[Hello?|Huh?|Wha-who are you?]] (Press Enter)",
+"text_replacements": [],
+"translation_key": "[[Hello?|Huh?|Wha-who are you?]] (Press Enter)",
+"type": "dialogue"
+},
+"4": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "5",
+"text": "Oh God, are you okay? You look awful.",
+"text_replacements": [],
+"translation_key": "Oh God, are you okay? You look awful.",
+"type": "dialogue"
+},
+"5": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "6",
+"text": "I, I haven't eaten in weeks. Or showered...or done anything really.",
+"text_replacements": [],
+"translation_key": "I, I haven't eaten in weeks. Or showered...or done anything really.",
+"type": "dialogue"
+},
+"6": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "7",
+"text": "There's food right next to you, why don't you eat that?",
+"text_replacements": [],
+"translation_key": "There's food right next to you, why don't you eat that?",
+"type": "dialogue"
+},
+"7": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "8",
+"text": "I would, but I've lost all my teeth. I've been here for so long. [wait=1.5] Tell you what, since you're in such good shape, if you can fetch me something to help me eat, I might just give you something super useful.",
+"text_replacements": [],
+"translation_key": "I would, but I've lost all my teeth. I've been here for so long. [wait=1.5] Tell you what, since you're in such good shape, if you can fetch me something to help me eat, I might just give you something super useful.",
+"type": "dialogue"
+},
+"8": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "9",
+"text": "I'll try.",
+"text_replacements": [],
+"translation_key": "I'll try.",
+"type": "dialogue"
+},
+"9": {
+"character": "???",
+"character_replacements": [],
+"next_id": "10",
+"text": "*RAWWWHHHHH!*",
+"text_replacements": [],
+"translation_key": "*RAWWWHHHHH!*",
+"type": "dialogue"
+}
+}

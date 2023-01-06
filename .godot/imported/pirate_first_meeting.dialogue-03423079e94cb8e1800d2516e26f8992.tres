@@ -1,0 +1,340 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ua7ed"]
+
+[resource]
+script = ExtResource("1_ua7ed")
+metadata/dialogue_manager_version = "2.7.0"
+metadata/titles = {
+"pirate_first_meeting": "3"
+}
+metadata/first_title = "3"
+metadata/lines = {
+"1": {
+"next_id": "3",
+"text": "pirate_first_meeting",
+"type": "title"
+},
+"10": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "11",
+"text": "How can I help ye today?",
+"text_replacements": [],
+"translation_key": "How can I help ye today?",
+"type": "dialogue"
+},
+"11": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "12",
+"text": "Well I actually was looking for something to help me get out of here.",
+"text_replacements": [],
+"translation_key": "Well I actually was looking for something to help me get out of here.",
+"type": "dialogue"
+},
+"12": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "13",
+"text": "Well, I do have one base of a ship, but ye luck ends there {{Globals.playerName}}.",
+"text_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"translation_key": "Well, I do have one base of a ship, but ye luck ends there {{Globals.playerName}}.",
+"type": "dialogue"
+},
+"13": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "14",
+"text": "What? Why?",
+"text_replacements": [],
+"translation_key": "What? Why?",
+"type": "dialogue"
+},
+"14": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "15",
+"text": "It's not for sale.",
+"text_replacements": [],
+"translation_key": "It's not for sale.",
+"type": "dialogue"
+},
+"15": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "16",
+"text": "Aw cmon, is there anything I can do?",
+"text_replacements": [],
+"translation_key": "Aw cmon, is there anything I can do?",
+"type": "dialogue"
+},
+"16": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "17",
+"text": "Well, how about this. I'll sell it to ya if ye can answer me riddle.",
+"text_replacements": [],
+"translation_key": "Well, how about this. I'll sell it to ya if ye can answer me riddle.",
+"type": "dialogue"
+},
+"17": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "18",
+"text": "You've gotta be kidding me.",
+"text_replacements": [],
+"translation_key": "You've gotta be kidding me.",
+"type": "dialogue"
+},
+"18": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Pirate"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "isTalking"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": false
+}]
+},
+"next_id": "19",
+"type": "mutation"
+},
+"19": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Player"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "can_move"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": true
+}]
+},
+"next_id": "",
+"type": "mutation"
+},
+"3": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Pirate"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "isTalking"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": true
+}]
+},
+"next_id": "4",
+"type": "mutation"
+},
+"4": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Pirate"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "hasMet"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": true
+}]
+},
+"next_id": "5",
+"type": "mutation"
+},
+"5": {
+"mutation": {
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "Player"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "can_move"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": false
+}]
+},
+"next_id": "6",
+"type": "mutation"
+},
+"6": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "7",
+"text": "Hello Traveler! What's ye name?",
+"text_replacements": [],
+"translation_key": "Hello Traveler! What's ye name?",
+"type": "dialogue"
+},
+"7": {
+"character": "{{Globals.playerName}}",
+"character_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"next_id": "8",
+"text": "I am {{Globals.playerName}}",
+"text_replacements": [{
+"expression": [{
+"type": "variable",
+"value": "Globals"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "playerName"
+}],
+"value_in_text": "{{Globals.playerName}}"
+}],
+"translation_key": "I am {{Globals.playerName}}",
+"type": "dialogue"
+},
+"8": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "9",
+"text": "Cool!",
+"text_replacements": [],
+"translation_key": "Cool!",
+"type": "dialogue"
+},
+"9": {
+"character": "Pirate",
+"character_replacements": [],
+"next_id": "11",
+"siblings": [{
+"id": "9",
+"weight": 1
+}, {
+"id": "10",
+"weight": 1
+}],
+"text": "Well, what're ye in search for?",
+"text_replacements": [],
+"translation_key": "Well, what're ye in search for?",
+"type": "dialogue"
+}
+}

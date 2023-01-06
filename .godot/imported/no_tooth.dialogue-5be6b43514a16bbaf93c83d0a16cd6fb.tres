@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ng5c2"]
+
+[resource]
+script = ExtResource("1_ng5c2")
+metadata/dialogue_manager_version = "2.7.0"
+metadata/titles = {
+"Mysterious_Man_No_Tooth": "3"
+}
+metadata/first_title = "3"
+metadata/lines = {
+"1": {
+"next_id": "3",
+"text": "Mysterious_Man_No_Tooth",
+"type": "title"
+},
+"3": {
+"character": "Ch***?",
+"character_replacements": [],
+"next_id": "",
+"text": "That's not going to help me eat!",
+"text_replacements": [],
+"translation_key": "That's not going to help me eat!",
+"type": "dialogue"
+}
+}

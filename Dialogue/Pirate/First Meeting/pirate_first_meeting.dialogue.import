@@ -1,0 +1,14 @@
+[remap]
+
+importer="dialogue_manager_compiler_4"
+type="Resource"
+uid="uid://b2pv6to4kbaas"
+path="res://.godot/imported/pirate_first_meeting.dialogue-03423079e94cb8e1800d2516e26f8992.tres"
+
+[deps]
+
+source_file="res://Dialogue/Pirate/First Meeting/pirate_first_meeting.dialogue"
+dest_files=["res://.godot/imported/pirate_first_meeting.dialogue-03423079e94cb8e1800d2516e26f8992.tres"]
+
+[params]
+
